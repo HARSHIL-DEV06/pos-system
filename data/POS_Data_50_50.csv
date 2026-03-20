@@ -1,0 +1,1001 @@
+Date,Time,CustomerType,ProductCategory,UnitPrice,Quantity,Total,FullName
+01-02-2025,00:15:00,Normal,Home & Kitchen,370.12,5,1850.6,John Doe
+01-02-2025,01:42:00,Refund,Electronics,-481.99,4,-1927.96,Alice Johnson
+01-02-2025,01:59:00,Premium,Clothing,384.89,4,1539.56,Jane Smith
+01-02-2025,02:00:00,Member,Home & Kitchen,367.96,1,367.96,John Doe
+01-02-2025,03:27:00,Refund,Home & Kitchen,-303.45,3,-910.35,Bob Williams
+01-02-2025,03:52:00,Refund,Home & Kitchen,-483.96,2,-967.92,Charlie Brown
+01-02-2025,03:57:00,Refund,Beauty & Personal Care,-359.57,2,-719.14,Bob Williams
+01-02-2025,05:04:00,Refund,Home & Kitchen,-19.57,4,-78.28,Charlie Brown
+01-02-2025,05:09:00,Member,Electronics,264.94,3,794.82,Alice Johnson
+01-02-2025,05:36:00,Refund,Grocery,-237.59,3,-712.77,John Doe
+01-02-2025,06:30:00,Member,Clothing,69.98,1,69.98,Bob Williams
+01-02-2025,07:43:00,Premium,Electronics,450.66,1,450.66,Alice Johnson
+01-02-2025,08:21:00,Member,Home & Kitchen,38.98,2,77.96,Jane Smith
+01-02-2025,08:50:00,Refund,Grocery,-488.17,2,-976.34,Bob Williams
+01-02-2025,09:35:00,Refund,Grocery,-291.57,2,-583.14,John Doe
+01-02-2025,10:02:00,Normal,Clothing,473.66,5,2368.3,John Doe
+01-02-2025,11:21:00,Normal,Clothing,225.11,4,900.44,John Doe
+01-02-2025,11:57:00,Member,Electronics,66.16,3,198.48,Jane Smith
+01-02-2025,12:29:00,Normal,Beauty & Personal Care,340.38,5,1701.9,Jane Smith
+01-02-2025,12:39:00,Refund,Beauty & Personal Care,-448.09,5,-2240.45,Charlie Brown
+01-02-2025,12:51:00,Normal,Home & Kitchen,159.64,5,798.2,John Doe
+01-02-2025,13:16:00,Normal,Grocery,63.76,3,191.28,Jane Smith
+01-02-2025,13:22:00,Premium,Clothing,329.26,5,1646.3,Bob Williams
+01-02-2025,13:34:00,Refund,Beauty & Personal Care,-173.46,5,-867.3,Charlie Brown
+01-02-2025,13:56:00,Premium,Beauty & Personal Care,436.67,4,1746.68,Charlie Brown
+01-02-2025,15:34:00,Member,Home & Kitchen,52.46,3,157.38,John Doe
+01-02-2025,15:48:00,Premium,Clothing,220.29,2,440.58,Alice Johnson
+01-02-2025,17:42:00,Refund,Beauty & Personal Care,-224.29,3,-672.87,Bob Williams
+01-02-2025,17:52:00,Member,Grocery,172.07,3,516.21,Alice Johnson
+01-02-2025,18:00:00,Refund,Grocery,-364.47,2,-728.94,Charlie Brown
+01-02-2025,18:16:00,Refund,Grocery,-238.81,3,-716.43,Charlie Brown
+01-02-2025,18:41:00,Normal,Electronics,484.74,4,1938.96,Jane Smith
+01-02-2025,18:56:00,Premium,Electronics,228.42,1,228.42,Jane Smith
+01-02-2025,19:23:00,Normal,Home & Kitchen,76.2,4,304.8,Jane Smith
+01-02-2025,20:45:00,Refund,Electronics,-490.33,1,-490.33,Alice Johnson
+01-02-2025,20:53:00,Member,Clothing,206.89,2,413.78,John Doe
+01-02-2025,20:57:00,Refund,Home & Kitchen,-171.25,3,-513.75,Charlie Brown
+01-02-2025,21:22:00,Normal,Clothing,266.5,4,1066.0,Alice Johnson
+01-02-2025,21:35:00,Refund,Beauty & Personal Care,-429.52,2,-859.04,John Doe
+01-02-2025,21:52:00,Refund,Grocery,-257.23,5,-1286.15,Alice Johnson
+01-02-2025,22:58:00,Refund,Beauty & Personal Care,-244.18,5,-1220.9,Charlie Brown
+02-02-2025,00:11:00,Refund,Grocery,-192.08,2,-384.16,Alice Johnson
+02-02-2025,01:09:00,Refund,Home & Kitchen,-454.23,1,-454.23,Jane Smith
+02-02-2025,02:00:00,Premium,Electronics,376.81,1,376.81,John Doe
+02-02-2025,02:40:00,Refund,Home & Kitchen,-475.67,1,-475.67,Charlie Brown
+02-02-2025,02:50:00,Premium,Home & Kitchen,493.83,1,493.83,John Doe
+02-02-2025,03:29:00,Normal,Grocery,195.14,5,975.7,Charlie Brown
+02-02-2025,05:44:00,Premium,Beauty & Personal Care,249.48,2,498.96,Charlie Brown
+02-02-2025,07:09:00,Premium,Grocery,178.06,3,534.18,Jane Smith
+02-02-2025,07:16:00,Refund,Home & Kitchen,-62.36,5,-311.8,Charlie Brown
+02-02-2025,07:46:00,Normal,Clothing,269.76,1,269.76,John Doe
+02-02-2025,08:37:00,Refund,Clothing,-442.96,3,-1328.88,Alice Johnson
+02-02-2025,09:18:00,Normal,Home & Kitchen,483.73,1,483.73,Bob Williams
+02-02-2025,10:28:00,Refund,Home & Kitchen,-268.55,2,-537.1,Bob Williams
+02-02-2025,10:36:00,Refund,Clothing,-197.47,1,-197.47,Bob Williams
+02-02-2025,11:20:00,Normal,Electronics,237.62,2,475.24,Jane Smith
+02-02-2025,11:21:00,Normal,Clothing,440.79,3,1322.37,Alice Johnson
+02-02-2025,11:21:00,Member,Beauty & Personal Care,48.99,4,195.96,Jane Smith
+02-02-2025,11:37:00,Refund,Electronics,-241.18,2,-482.36,Bob Williams
+02-02-2025,12:07:00,Normal,Electronics,373.31,1,373.31,Jane Smith
+02-02-2025,13:48:00,Refund,Clothing,-227.51,5,-1137.55,Bob Williams
+02-02-2025,14:01:00,Refund,Grocery,-210.23,1,-210.23,Charlie Brown
+02-02-2025,14:33:00,Refund,Grocery,-338.16,1,-338.16,Alice Johnson
+02-02-2025,15:20:00,Refund,Home & Kitchen,-22.47,3,-67.41,Alice Johnson
+02-02-2025,15:34:00,Member,Electronics,162.59,1,162.59,Bob Williams
+02-02-2025,15:38:00,Normal,Home & Kitchen,450.54,5,2252.7,Charlie Brown
+02-02-2025,16:04:00,Refund,Home & Kitchen,-391.04,2,-782.08,Jane Smith
+02-02-2025,16:46:00,Premium,Clothing,13.87,1,13.87,Charlie Brown
+02-02-2025,17:20:00,Refund,Home & Kitchen,-377.4,4,-1509.6,Bob Williams
+02-02-2025,17:55:00,Premium,Electronics,422.78,4,1691.12,John Doe
+02-02-2025,18:01:00,Refund,Electronics,-175.98,1,-175.98,Jane Smith
+02-02-2025,19:36:00,Member,Clothing,427.78,3,1283.34,Charlie Brown
+02-02-2025,21:23:00,Normal,Beauty & Personal Care,10.83,1,10.83,Alice Johnson
+03-02-2025,00:01:00,Refund,Clothing,-274.62,4,-1098.48,John Doe
+03-02-2025,00:01:00,Refund,Home & Kitchen,-226.96,3,-680.88,Alice Johnson
+03-02-2025,00:19:00,Premium,Grocery,361.74,3,1085.22,Alice Johnson
+03-02-2025,00:38:00,Premium,Home & Kitchen,283.98,3,851.94,Jane Smith
+03-02-2025,00:51:00,Refund,Clothing,-157.82,3,-473.46,Jane Smith
+03-02-2025,02:19:00,Refund,Electronics,-83.92,5,-419.6,Alice Johnson
+03-02-2025,02:31:00,Premium,Electronics,408.99,2,817.98,Bob Williams
+03-02-2025,03:45:00,Refund,Home & Kitchen,-26.69,4,-106.76,Alice Johnson
+03-02-2025,03:56:00,Member,Electronics,473.17,2,946.34,Bob Williams
+03-02-2025,04:07:00,Refund,Clothing,-317.38,5,-1586.9,John Doe
+03-02-2025,04:25:00,Refund,Electronics,-38.73,5,-193.65,Jane Smith
+03-02-2025,04:38:00,Refund,Grocery,-206.66,1,-206.66,Bob Williams
+03-02-2025,05:09:00,Refund,Electronics,-56.14,5,-280.7,John Doe
+03-02-2025,05:21:00,Premium,Electronics,71.52,5,357.6,Charlie Brown
+03-02-2025,05:26:00,Normal,Electronics,385.49,3,1156.47,Jane Smith
+03-02-2025,05:32:00,Premium,Beauty & Personal Care,91.19,4,364.76,Jane Smith
+03-02-2025,06:29:00,Premium,Clothing,171.09,1,171.09,Jane Smith
+03-02-2025,07:00:00,Refund,Clothing,-81.74,2,-163.48,Bob Williams
+03-02-2025,07:21:00,Refund,Home & Kitchen,-365.93,4,-1463.72,John Doe
+03-02-2025,07:24:00,Refund,Home & Kitchen,-169.1,1,-169.1,Bob Williams
+03-02-2025,08:33:00,Normal,Grocery,493.04,2,986.08,John Doe
+03-02-2025,08:48:00,Refund,Beauty & Personal Care,-275.67,3,-827.01,Jane Smith
+03-02-2025,09:04:00,Member,Electronics,389.16,2,778.32,John Doe
+03-02-2025,09:16:00,Normal,Home & Kitchen,105.24,2,210.48,Bob Williams
+03-02-2025,10:38:00,Normal,Electronics,76.22,3,228.66,Charlie Brown
+03-02-2025,12:20:00,Refund,Clothing,-237.84,4,-951.36,Alice Johnson
+03-02-2025,12:26:00,Member,Grocery,226.29,3,678.87,John Doe
+03-02-2025,15:16:00,Premium,Clothing,415.53,4,1662.12,Alice Johnson
+03-02-2025,15:20:00,Normal,Grocery,479.64,3,1438.92,Bob Williams
+03-02-2025,15:56:00,Premium,Clothing,95.49,4,381.96,John Doe
+03-02-2025,16:06:00,Premium,Home & Kitchen,206.91,4,827.64,Alice Johnson
+03-02-2025,16:12:00,Refund,Grocery,-296.85,3,-890.55,Charlie Brown
+03-02-2025,16:16:00,Normal,Clothing,444.12,4,1776.48,Alice Johnson
+03-02-2025,18:45:00,Refund,Grocery,-424.74,4,-1698.96,John Doe
+03-02-2025,20:29:00,Refund,Grocery,-227.53,3,-682.59,Alice Johnson
+03-02-2025,20:52:00,Refund,Electronics,-277.13,1,-277.13,John Doe
+03-02-2025,22:26:00,Member,Home & Kitchen,300.58,2,601.16,Charlie Brown
+03-02-2025,23:21:00,Refund,Electronics,-328.04,1,-328.04,John Doe
+04-02-2025,00:06:00,Premium,Grocery,244.79,4,979.16,John Doe
+04-02-2025,00:17:00,Member,Grocery,480.79,5,2403.95,Jane Smith
+04-02-2025,01:44:00,Normal,Electronics,446.75,1,446.75,Jane Smith
+04-02-2025,04:30:00,Member,Grocery,98.22,3,294.66,Charlie Brown
+04-02-2025,05:10:00,Normal,Home & Kitchen,393.08,2,786.16,Alice Johnson
+04-02-2025,05:47:00,Refund,Grocery,-62.18,2,-124.36,John Doe
+04-02-2025,07:32:00,Premium,Clothing,363.19,1,363.19,John Doe
+04-02-2025,09:00:00,Member,Electronics,190.64,3,571.92,John Doe
+04-02-2025,11:07:00,Refund,Clothing,-25.11,4,-100.44,Alice Johnson
+04-02-2025,11:26:00,Refund,Grocery,-338.58,5,-1692.9,Jane Smith
+04-02-2025,11:46:00,Normal,Beauty & Personal Care,447.38,4,1789.52,Bob Williams
+04-02-2025,12:35:00,Refund,Electronics,-272.79,4,-1091.16,Bob Williams
+04-02-2025,13:35:00,Refund,Grocery,-327.55,2,-655.1,John Doe
+04-02-2025,15:26:00,Refund,Beauty & Personal Care,-122.23,2,-244.46,Alice Johnson
+04-02-2025,16:13:00,Normal,Home & Kitchen,262.72,4,1050.88,John Doe
+04-02-2025,16:23:00,Refund,Grocery,-450.69,3,-1352.07,Jane Smith
+04-02-2025,16:23:00,Member,Home & Kitchen,347.72,3,1043.16,Bob Williams
+04-02-2025,17:19:00,Refund,Clothing,-228.91,2,-457.82,Alice Johnson
+04-02-2025,17:27:00,Premium,Clothing,157.69,2,315.38,Bob Williams
+04-02-2025,17:37:00,Refund,Beauty & Personal Care,-89.34,4,-357.36,Bob Williams
+04-02-2025,18:27:00,Refund,Electronics,-491.34,2,-982.68,Charlie Brown
+04-02-2025,19:12:00,Refund,Beauty & Personal Care,-139.74,4,-558.96,Jane Smith
+04-02-2025,19:28:00,Premium,Electronics,73.79,3,221.37,John Doe
+04-02-2025,19:41:00,Refund,Clothing,-472.48,2,-944.96,Alice Johnson
+04-02-2025,21:02:00,Refund,Home & Kitchen,-412.73,5,-2063.65,Charlie Brown
+04-02-2025,22:31:00,Premium,Home & Kitchen,357.57,3,1072.71,Jane Smith
+04-02-2025,23:23:00,Member,Beauty & Personal Care,198.87,1,198.87,Alice Johnson
+04-02-2025,23:45:00,Member,Electronics,334.12,2,668.24,John Doe
+04-02-2025,23:49:00,Member,Grocery,488.04,3,1464.12,Bob Williams
+05-02-2025,00:19:00,Refund,Home & Kitchen,-225.94,5,-1129.7,Alice Johnson
+05-02-2025,01:20:00,Premium,Electronics,418.5,4,1674.0,John Doe
+05-02-2025,01:26:00,Normal,Home & Kitchen,210.6,4,842.4,Alice Johnson
+05-02-2025,02:13:00,Premium,Home & Kitchen,470.05,2,940.1,Bob Williams
+05-02-2025,02:21:00,Normal,Home & Kitchen,153.43,4,613.72,Bob Williams
+05-02-2025,02:38:00,Member,Beauty & Personal Care,288.89,2,577.78,Jane Smith
+05-02-2025,03:54:00,Refund,Home & Kitchen,-189.02,3,-567.06,Bob Williams
+05-02-2025,04:39:00,Premium,Beauty & Personal Care,272.99,4,1091.96,Alice Johnson
+05-02-2025,05:17:00,Refund,Home & Kitchen,-189.7,5,-948.5,Alice Johnson
+05-02-2025,06:24:00,Refund,Beauty & Personal Care,-335.77,1,-335.77,Bob Williams
+05-02-2025,06:38:00,Normal,Electronics,346.63,4,1386.52,Alice Johnson
+05-02-2025,06:39:00,Member,Home & Kitchen,23.08,1,23.08,Bob Williams
+05-02-2025,07:37:00,Refund,Home & Kitchen,-334.42,5,-1672.1,Alice Johnson
+05-02-2025,07:42:00,Refund,Clothing,-318.99,3,-956.97,Bob Williams
+05-02-2025,07:51:00,Premium,Grocery,144.3,3,432.9,John Doe
+05-02-2025,08:43:00,Premium,Home & Kitchen,114.83,3,344.49,Bob Williams
+05-02-2025,09:22:00,Refund,Electronics,-461.43,2,-922.86,Jane Smith
+05-02-2025,10:04:00,Premium,Grocery,79.35,5,396.75,Jane Smith
+05-02-2025,13:05:00,Premium,Beauty & Personal Care,427.25,3,1281.75,Jane Smith
+05-02-2025,14:37:00,Refund,Clothing,-462.88,3,-1388.64,John Doe
+05-02-2025,14:45:00,Refund,Clothing,-490.67,1,-490.67,Bob Williams
+05-02-2025,16:29:00,Refund,Beauty & Personal Care,-490.82,3,-1472.46,Bob Williams
+05-02-2025,16:51:00,Premium,Home & Kitchen,21.18,5,105.9,Bob Williams
+05-02-2025,16:57:00,Normal,Clothing,344.3,4,1377.2,Bob Williams
+05-02-2025,17:03:00,Member,Beauty & Personal Care,239.93,3,719.79,John Doe
+05-02-2025,17:34:00,Member,Grocery,304.54,1,304.54,John Doe
+05-02-2025,17:57:00,Premium,Clothing,230.82,2,461.64,Alice Johnson
+05-02-2025,20:49:00,Normal,Home & Kitchen,96.9,4,387.6,Charlie Brown
+05-02-2025,21:41:00,Refund,Clothing,-11.5,4,-46.0,Charlie Brown
+05-02-2025,22:32:00,Refund,Electronics,-481.65,1,-481.65,John Doe
+05-02-2025,22:57:00,Refund,Clothing,-358.67,3,-1076.01,Jane Smith
+05-02-2025,23:11:00,Refund,Grocery,-366.73,4,-1466.92,Bob Williams
+05-02-2025,23:50:00,Refund,Grocery,-371.24,4,-1484.96,Jane Smith
+06-02-2025,00:12:00,Refund,Beauty & Personal Care,-90.21,4,-360.84,Charlie Brown
+06-02-2025,00:35:00,Refund,Home & Kitchen,-172.85,2,-345.7,Bob Williams
+06-02-2025,00:35:00,Refund,Beauty & Personal Care,-34.08,5,-170.4,John Doe
+06-02-2025,00:37:00,Refund,Beauty & Personal Care,-336.25,4,-1345.0,Jane Smith
+06-02-2025,01:48:00,Refund,Electronics,-38.33,2,-76.66,Jane Smith
+06-02-2025,01:51:00,Premium,Beauty & Personal Care,251.37,5,1256.85,John Doe
+06-02-2025,02:47:00,Normal,Electronics,434.29,2,868.58,Jane Smith
+06-02-2025,02:56:00,Normal,Grocery,229.83,5,1149.15,Jane Smith
+06-02-2025,05:14:00,Refund,Home & Kitchen,-448.15,5,-2240.75,Bob Williams
+06-02-2025,06:03:00,Refund,Beauty & Personal Care,-288.0,3,-864.0,John Doe
+06-02-2025,06:14:00,Refund,Home & Kitchen,-488.61,5,-2443.05,Charlie Brown
+06-02-2025,06:50:00,Premium,Beauty & Personal Care,241.87,2,483.74,Jane Smith
+06-02-2025,07:46:00,Refund,Electronics,-346.14,1,-346.14,Alice Johnson
+06-02-2025,08:18:00,Refund,Beauty & Personal Care,-446.68,2,-893.36,Alice Johnson
+06-02-2025,08:32:00,Member,Beauty & Personal Care,316.25,2,632.5,Alice Johnson
+06-02-2025,08:58:00,Refund,Home & Kitchen,-125.27,2,-250.54,Charlie Brown
+06-02-2025,13:23:00,Normal,Electronics,182.24,2,364.48,Bob Williams
+06-02-2025,13:25:00,Refund,Clothing,-345.56,1,-345.56,Alice Johnson
+06-02-2025,13:56:00,Refund,Home & Kitchen,-49.13,5,-245.65,John Doe
+06-02-2025,14:15:00,Normal,Beauty & Personal Care,497.25,3,1491.75,Jane Smith
+06-02-2025,14:17:00,Premium,Clothing,470.35,3,1411.05,Charlie Brown
+06-02-2025,14:19:00,Normal,Beauty & Personal Care,238.83,5,1194.15,Jane Smith
+06-02-2025,14:23:00,Member,Electronics,494.96,4,1979.84,Alice Johnson
+06-02-2025,14:53:00,Normal,Grocery,162.0,3,486.0,Jane Smith
+06-02-2025,14:59:00,Member,Grocery,441.49,2,882.98,Bob Williams
+06-02-2025,15:18:00,Refund,Electronics,-227.58,3,-682.74,Jane Smith
+06-02-2025,15:44:00,Normal,Clothing,189.51,4,758.04,Bob Williams
+06-02-2025,16:34:00,Premium,Grocery,300.02,4,1200.08,Bob Williams
+06-02-2025,16:45:00,Normal,Home & Kitchen,298.43,2,596.86,John Doe
+06-02-2025,17:29:00,Refund,Home & Kitchen,-215.17,2,-430.34,Alice Johnson
+06-02-2025,17:56:00,Premium,Electronics,322.26,5,1611.3,Charlie Brown
+06-02-2025,18:18:00,Normal,Grocery,228.72,4,914.88,Jane Smith
+06-02-2025,19:48:00,Member,Home & Kitchen,371.28,2,742.56,Jane Smith
+06-02-2025,19:51:00,Premium,Home & Kitchen,452.35,3,1357.05,Charlie Brown
+06-02-2025,20:39:00,Refund,Home & Kitchen,-116.52,5,-582.6,Bob Williams
+06-02-2025,23:38:00,Refund,Grocery,-82.61,2,-165.22,John Doe
+07-02-2025,00:23:00,Member,Electronics,366.35,4,1465.4,Charlie Brown
+07-02-2025,00:40:00,Normal,Clothing,447.14,1,447.14,Bob Williams
+07-02-2025,01:08:00,Refund,Home & Kitchen,-153.84,5,-769.2,John Doe
+07-02-2025,01:40:00,Premium,Clothing,25.61,3,76.83,Jane Smith
+07-02-2025,02:18:00,Refund,Clothing,-331.25,4,-1325.0,Jane Smith
+07-02-2025,02:55:00,Refund,Electronics,-158.88,2,-317.76,Charlie Brown
+07-02-2025,03:50:00,Refund,Electronics,-349.13,5,-1745.65,Jane Smith
+07-02-2025,04:30:00,Refund,Beauty & Personal Care,-178.12,1,-178.12,Alice Johnson
+07-02-2025,04:43:00,Refund,Home & Kitchen,-239.58,3,-718.74,John Doe
+07-02-2025,05:01:00,Normal,Home & Kitchen,338.21,3,1014.63,Jane Smith
+07-02-2025,05:11:00,Refund,Clothing,-223.17,2,-446.34,Charlie Brown
+07-02-2025,05:25:00,Premium,Home & Kitchen,150.56,3,451.68,Alice Johnson
+07-02-2025,05:54:00,Refund,Beauty & Personal Care,-82.55,3,-247.65,Alice Johnson
+07-02-2025,06:32:00,Member,Clothing,54.91,4,219.64,Bob Williams
+07-02-2025,07:43:00,Refund,Clothing,-364.3,1,-364.3,Alice Johnson
+07-02-2025,07:55:00,Normal,Beauty & Personal Care,253.44,1,253.44,Bob Williams
+07-02-2025,08:00:00,Normal,Home & Kitchen,182.2,2,364.4,Jane Smith
+07-02-2025,08:35:00,Refund,Grocery,-454.36,3,-1363.08,Alice Johnson
+07-02-2025,08:39:00,Refund,Electronics,-117.15,1,-117.15,Bob Williams
+07-02-2025,09:09:00,Refund,Grocery,-204.87,1,-204.87,Alice Johnson
+07-02-2025,09:09:00,Member,Electronics,158.53,1,158.53,Charlie Brown
+07-02-2025,09:13:00,Premium,Grocery,376.62,2,753.24,Alice Johnson
+07-02-2025,11:13:00,Refund,Electronics,-62.87,5,-314.35,Jane Smith
+07-02-2025,11:19:00,Refund,Beauty & Personal Care,-107.84,5,-539.2,Charlie Brown
+07-02-2025,12:03:00,Refund,Grocery,-126.76,5,-633.8,Bob Williams
+07-02-2025,12:29:00,Member,Grocery,139.11,1,139.11,Bob Williams
+07-02-2025,12:43:00,Refund,Clothing,-172.86,2,-345.72,Jane Smith
+07-02-2025,12:57:00,Refund,Electronics,-337.37,2,-674.74,John Doe
+07-02-2025,13:17:00,Refund,Home & Kitchen,-370.89,5,-1854.45,Jane Smith
+07-02-2025,15:09:00,Refund,Clothing,-210.96,3,-632.88,Charlie Brown
+07-02-2025,15:15:00,Premium,Clothing,198.7,5,993.5,Alice Johnson
+07-02-2025,15:49:00,Member,Electronics,425.1,3,1275.3,Jane Smith
+07-02-2025,15:59:00,Premium,Electronics,472.78,3,1418.34,Alice Johnson
+07-02-2025,17:01:00,Refund,Grocery,-158.61,2,-317.22,John Doe
+07-02-2025,17:06:00,Normal,Clothing,483.32,5,2416.6,Bob Williams
+07-02-2025,17:08:00,Premium,Grocery,155.04,3,465.12,Jane Smith
+07-02-2025,17:21:00,Refund,Beauty & Personal Care,-105.45,3,-316.35,Charlie Brown
+07-02-2025,18:56:00,Premium,Electronics,425.72,5,2128.6,Jane Smith
+07-02-2025,19:03:00,Refund,Clothing,-296.08,4,-1184.32,Jane Smith
+07-02-2025,20:56:00,Refund,Clothing,-295.7,4,-1182.8,Charlie Brown
+07-02-2025,21:16:00,Member,Beauty & Personal Care,408.83,3,1226.49,Jane Smith
+07-02-2025,21:17:00,Member,Grocery,198.69,1,198.69,Alice Johnson
+07-02-2025,21:39:00,Normal,Clothing,191.31,4,765.24,Alice Johnson
+07-02-2025,22:09:00,Member,Clothing,292.02,1,292.02,John Doe
+08-02-2025,00:54:00,Refund,Home & Kitchen,-105.02,3,-315.06,Alice Johnson
+08-02-2025,01:36:00,Refund,Beauty & Personal Care,-456.6,4,-1826.4,Jane Smith
+08-02-2025,01:40:00,Premium,Home & Kitchen,149.44,5,747.2,John Doe
+08-02-2025,02:17:00,Premium,Beauty & Personal Care,335.29,5,1676.45,John Doe
+08-02-2025,02:20:00,Refund,Electronics,-427.02,1,-427.02,Bob Williams
+08-02-2025,02:29:00,Premium,Clothing,382.1,1,382.1,Charlie Brown
+08-02-2025,02:36:00,Refund,Beauty & Personal Care,-372.29,5,-1861.45,Jane Smith
+08-02-2025,02:39:00,Member,Clothing,247.5,5,1237.5,John Doe
+08-02-2025,02:56:00,Premium,Electronics,490.99,5,2454.95,John Doe
+08-02-2025,04:27:00,Refund,Grocery,-225.04,4,-900.16,Bob Williams
+08-02-2025,05:19:00,Refund,Beauty & Personal Care,-435.84,4,-1743.36,Charlie Brown
+08-02-2025,06:01:00,Premium,Electronics,412.27,3,1236.81,Jane Smith
+08-02-2025,06:07:00,Normal,Electronics,223.48,5,1117.4,John Doe
+08-02-2025,06:25:00,Refund,Clothing,-421.24,5,-2106.2,Alice Johnson
+08-02-2025,06:54:00,Normal,Grocery,441.59,5,2207.95,John Doe
+08-02-2025,07:03:00,Refund,Grocery,-387.46,1,-387.46,Charlie Brown
+08-02-2025,08:15:00,Normal,Home & Kitchen,271.23,1,271.23,John Doe
+08-02-2025,08:33:00,Premium,Clothing,92.36,2,184.72,Alice Johnson
+08-02-2025,08:52:00,Normal,Beauty & Personal Care,339.43,3,1018.29,Alice Johnson
+08-02-2025,10:07:00,Premium,Clothing,256.33,5,1281.65,Bob Williams
+08-02-2025,11:52:00,Member,Electronics,141.68,4,566.72,Bob Williams
+08-02-2025,13:03:00,Refund,Beauty & Personal Care,-145.42,4,-581.68,Charlie Brown
+08-02-2025,14:30:00,Normal,Clothing,455.63,5,2278.15,Bob Williams
+08-02-2025,14:48:00,Refund,Beauty & Personal Care,-70.9,1,-70.9,Jane Smith
+08-02-2025,15:34:00,Normal,Clothing,119.67,2,239.34,Charlie Brown
+08-02-2025,16:08:00,Premium,Grocery,186.99,3,560.97,Bob Williams
+08-02-2025,16:08:00,Premium,Electronics,338.89,1,338.89,Bob Williams
+08-02-2025,18:24:00,Refund,Clothing,-67.66,1,-67.66,Charlie Brown
+08-02-2025,18:35:00,Refund,Clothing,-151.46,2,-302.92,Alice Johnson
+08-02-2025,19:14:00,Refund,Home & Kitchen,-453.19,5,-2265.95,Charlie Brown
+08-02-2025,19:15:00,Normal,Clothing,444.08,5,2220.4,Charlie Brown
+08-02-2025,19:19:00,Premium,Grocery,403.99,1,403.99,Bob Williams
+08-02-2025,21:02:00,Refund,Beauty & Personal Care,-13.09,3,-39.27,Alice Johnson
+08-02-2025,21:29:00,Premium,Electronics,343.16,5,1715.8,Bob Williams
+08-02-2025,22:07:00,Normal,Grocery,450.77,4,1803.08,Bob Williams
+08-02-2025,22:37:00,Normal,Home & Kitchen,322.68,4,1290.72,Bob Williams
+08-02-2025,22:51:00,Member,Home & Kitchen,444.56,1,444.56,John Doe
+08-02-2025,23:28:00,Refund,Beauty & Personal Care,-208.05,2,-416.1,Jane Smith
+09-02-2025,00:17:00,Normal,Home & Kitchen,411.43,2,822.86,Charlie Brown
+09-02-2025,00:25:00,Refund,Grocery,-441.35,4,-1765.4,John Doe
+09-02-2025,01:03:00,Refund,Electronics,-217.25,5,-1086.25,Jane Smith
+09-02-2025,01:35:00,Premium,Beauty & Personal Care,68.58,2,137.16,Alice Johnson
+09-02-2025,03:01:00,Premium,Clothing,256.16,2,512.32,Jane Smith
+09-02-2025,05:59:00,Premium,Home & Kitchen,242.85,2,485.7,Alice Johnson
+09-02-2025,06:08:00,Member,Clothing,269.17,3,807.51,Alice Johnson
+09-02-2025,06:10:00,Premium,Electronics,227.61,5,1138.05,Bob Williams
+09-02-2025,06:30:00,Premium,Clothing,362.83,3,1088.49,Jane Smith
+09-02-2025,06:39:00,Premium,Grocery,435.21,1,435.21,John Doe
+09-02-2025,07:36:00,Refund,Beauty & Personal Care,-327.95,1,-327.95,Jane Smith
+09-02-2025,07:52:00,Refund,Home & Kitchen,-356.99,5,-1784.95,John Doe
+09-02-2025,08:17:00,Normal,Electronics,98.07,1,98.07,Charlie Brown
+09-02-2025,08:51:00,Refund,Home & Kitchen,-257.54,1,-257.54,Alice Johnson
+09-02-2025,09:30:00,Refund,Grocery,-352.87,5,-1764.35,Bob Williams
+09-02-2025,11:04:00,Normal,Beauty & Personal Care,132.47,3,397.41,John Doe
+09-02-2025,11:06:00,Refund,Clothing,-42.75,4,-171.0,Charlie Brown
+09-02-2025,11:08:00,Premium,Clothing,16.86,1,16.86,Jane Smith
+09-02-2025,12:20:00,Refund,Electronics,-412.71,4,-1650.84,Bob Williams
+09-02-2025,12:39:00,Member,Grocery,270.87,4,1083.48,Bob Williams
+09-02-2025,12:48:00,Refund,Beauty & Personal Care,-428.82,1,-428.82,Jane Smith
+09-02-2025,13:33:00,Refund,Electronics,-81.78,1,-81.78,Bob Williams
+09-02-2025,14:29:00,Refund,Electronics,-410.39,3,-1231.17,Jane Smith
+09-02-2025,14:40:00,Member,Electronics,152.09,4,608.36,Jane Smith
+09-02-2025,14:53:00,Member,Electronics,130.46,3,391.38,Bob Williams
+09-02-2025,15:19:00,Premium,Clothing,323.79,1,323.79,Alice Johnson
+09-02-2025,16:55:00,Refund,Electronics,-149.43,1,-149.43,Alice Johnson
+09-02-2025,17:41:00,Normal,Grocery,254.29,2,508.58,Alice Johnson
+09-02-2025,17:43:00,Refund,Grocery,-372.86,5,-1864.3,John Doe
+09-02-2025,17:50:00,Refund,Home & Kitchen,-487.07,1,-487.07,Bob Williams
+09-02-2025,18:08:00,Refund,Beauty & Personal Care,-301.04,5,-1505.2,Alice Johnson
+09-02-2025,18:12:00,Premium,Clothing,366.03,3,1098.09,Jane Smith
+09-02-2025,18:23:00,Refund,Beauty & Personal Care,-28.39,5,-141.95,Alice Johnson
+09-02-2025,18:26:00,Member,Beauty & Personal Care,314.64,2,629.28,Jane Smith
+09-02-2025,18:39:00,Normal,Grocery,414.94,5,2074.7,Alice Johnson
+09-02-2025,19:15:00,Refund,Electronics,-135.36,2,-270.72,Jane Smith
+09-02-2025,19:22:00,Refund,Grocery,-365.32,5,-1826.6,Charlie Brown
+09-02-2025,19:31:00,Normal,Grocery,141.31,2,282.62,Bob Williams
+09-02-2025,19:41:00,Refund,Clothing,-402.11,3,-1206.33,Alice Johnson
+09-02-2025,19:52:00,Member,Home & Kitchen,184.17,2,368.34,Charlie Brown
+09-02-2025,20:31:00,Refund,Home & Kitchen,-103.48,3,-310.44,Charlie Brown
+09-02-2025,22:10:00,Normal,Grocery,452.92,5,2264.6,Charlie Brown
+09-02-2025,22:53:00,Refund,Grocery,-60.99,4,-243.96,John Doe
+09-02-2025,23:00:00,Member,Clothing,238.33,5,1191.65,John Doe
+09-02-2025,23:18:00,Normal,Grocery,274.85,1,274.85,Alice Johnson
+09-02-2025,23:56:00,Premium,Clothing,46.86,3,140.58,Charlie Brown
+10-02-2025,00:06:00,Member,Electronics,321.8,1,321.8,Jane Smith
+10-02-2025,00:56:00,Premium,Beauty & Personal Care,201.38,2,402.76,Alice Johnson
+10-02-2025,02:05:00,Refund,Clothing,-252.39,2,-504.78,Bob Williams
+10-02-2025,02:53:00,Normal,Grocery,433.42,3,1300.26,Alice Johnson
+10-02-2025,03:25:00,Normal,Beauty & Personal Care,242.72,4,970.88,Jane Smith
+10-02-2025,03:55:00,Refund,Electronics,-15.11,5,-75.55,John Doe
+10-02-2025,04:13:00,Refund,Beauty & Personal Care,-382.99,3,-1148.97,Bob Williams
+10-02-2025,04:25:00,Refund,Clothing,-468.87,1,-468.87,Charlie Brown
+10-02-2025,04:49:00,Refund,Beauty & Personal Care,-161.27,4,-645.08,Charlie Brown
+10-02-2025,05:42:00,Premium,Beauty & Personal Care,165.63,1,165.63,Jane Smith
+10-02-2025,05:59:00,Refund,Beauty & Personal Care,-254.9,5,-1274.5,John Doe
+10-02-2025,07:00:00,Refund,Home & Kitchen,-377.49,2,-754.98,Charlie Brown
+10-02-2025,08:14:00,Member,Clothing,29.27,3,87.81,Bob Williams
+10-02-2025,08:21:00,Refund,Clothing,-399.08,5,-1995.4,Alice Johnson
+10-02-2025,08:25:00,Normal,Beauty & Personal Care,116.46,3,349.38,Jane Smith
+10-02-2025,09:35:00,Refund,Beauty & Personal Care,-76.54,5,-382.7,Alice Johnson
+10-02-2025,09:38:00,Member,Clothing,447.27,3,1341.81,Alice Johnson
+10-02-2025,10:39:00,Refund,Beauty & Personal Care,-488.02,5,-2440.1,John Doe
+10-02-2025,10:40:00,Normal,Beauty & Personal Care,482.98,5,2414.9,Bob Williams
+10-02-2025,12:14:00,Refund,Home & Kitchen,-183.37,4,-733.48,Alice Johnson
+10-02-2025,12:38:00,Refund,Electronics,-141.65,1,-141.65,Bob Williams
+10-02-2025,12:41:00,Member,Grocery,76.39,3,229.17,Alice Johnson
+10-02-2025,13:35:00,Refund,Electronics,-414.92,2,-829.84,Jane Smith
+10-02-2025,14:33:00,Normal,Clothing,146.65,4,586.6,Charlie Brown
+10-02-2025,15:07:00,Refund,Grocery,-139.09,3,-417.27,John Doe
+10-02-2025,15:45:00,Refund,Grocery,-200.94,1,-200.94,Alice Johnson
+10-02-2025,16:45:00,Refund,Beauty & Personal Care,-219.78,1,-219.78,Jane Smith
+10-02-2025,17:33:00,Refund,Home & Kitchen,-143.3,1,-143.3,Alice Johnson
+10-02-2025,19:23:00,Refund,Home & Kitchen,-226.42,1,-226.42,John Doe
+10-02-2025,20:06:00,Premium,Beauty & Personal Care,299.62,2,599.24,John Doe
+10-02-2025,21:28:00,Normal,Beauty & Personal Care,147.53,5,737.65,Bob Williams
+10-02-2025,21:57:00,Refund,Grocery,-197.9,3,-593.7,John Doe
+10-02-2025,21:58:00,Member,Clothing,175.36,5,876.8,Alice Johnson
+10-02-2025,22:33:00,Refund,Home & Kitchen,-252.37,2,-504.74,Alice Johnson
+10-02-2025,22:43:00,Refund,Home & Kitchen,-349.7,2,-699.4,Jane Smith
+10-02-2025,23:18:00,Premium,Beauty & Personal Care,343.21,2,686.42,John Doe
+10-02-2025,23:46:00,Member,Electronics,162.12,4,648.48,Charlie Brown
+11-02-2025,00:29:00,Normal,Electronics,305.23,3,915.69,Alice Johnson
+11-02-2025,00:42:00,Refund,Clothing,-398.54,2,-797.08,John Doe
+11-02-2025,01:27:00,Refund,Electronics,-324.7,1,-324.7,Charlie Brown
+11-02-2025,02:54:00,Refund,Grocery,-134.94,5,-674.7,Jane Smith
+11-02-2025,03:44:00,Refund,Clothing,-106.0,2,-212.0,Charlie Brown
+11-02-2025,04:46:00,Refund,Beauty & Personal Care,-477.53,5,-2387.65,Alice Johnson
+11-02-2025,05:03:00,Premium,Grocery,407.97,2,815.94,Jane Smith
+11-02-2025,05:21:00,Normal,Grocery,417.55,3,1252.65,Charlie Brown
+11-02-2025,05:23:00,Member,Grocery,111.05,1,111.05,Alice Johnson
+11-02-2025,05:24:00,Refund,Beauty & Personal Care,-157.62,5,-788.1,Jane Smith
+11-02-2025,05:40:00,Refund,Home & Kitchen,-38.05,3,-114.15,Bob Williams
+11-02-2025,06:26:00,Premium,Home & Kitchen,306.72,4,1226.88,Jane Smith
+11-02-2025,06:51:00,Refund,Beauty & Personal Care,-158.11,1,-158.11,Alice Johnson
+11-02-2025,07:13:00,Member,Clothing,37.76,5,188.8,John Doe
+11-02-2025,07:17:00,Refund,Home & Kitchen,-396.54,3,-1189.62,Bob Williams
+11-02-2025,08:09:00,Normal,Electronics,341.99,1,341.99,Bob Williams
+11-02-2025,08:41:00,Premium,Beauty & Personal Care,220.9,2,441.8,Charlie Brown
+11-02-2025,09:03:00,Member,Clothing,437.4,1,437.4,John Doe
+11-02-2025,09:11:00,Refund,Electronics,-124.08,4,-496.32,John Doe
+11-02-2025,09:36:00,Member,Grocery,460.06,2,920.12,Alice Johnson
+11-02-2025,10:41:00,Refund,Home & Kitchen,-208.63,1,-208.63,Alice Johnson
+11-02-2025,11:32:00,Refund,Home & Kitchen,-327.43,5,-1637.15,Jane Smith
+11-02-2025,12:08:00,Refund,Grocery,-23.25,1,-23.25,Alice Johnson
+11-02-2025,12:45:00,Refund,Electronics,-349.15,3,-1047.45,Alice Johnson
+11-02-2025,15:53:00,Refund,Electronics,-229.51,1,-229.51,Bob Williams
+11-02-2025,16:19:00,Refund,Home & Kitchen,-81.19,2,-162.38,John Doe
+11-02-2025,16:47:00,Refund,Clothing,-404.05,5,-2020.25,Charlie Brown
+11-02-2025,16:56:00,Member,Clothing,118.18,5,590.9,Charlie Brown
+11-02-2025,17:13:00,Refund,Electronics,-350.92,4,-1403.68,Jane Smith
+11-02-2025,17:39:00,Member,Beauty & Personal Care,248.93,1,248.93,Alice Johnson
+11-02-2025,17:40:00,Member,Electronics,432.47,2,864.94,John Doe
+11-02-2025,18:46:00,Normal,Home & Kitchen,181.27,1,181.27,John Doe
+11-02-2025,18:57:00,Refund,Electronics,-20.73,1,-20.73,Bob Williams
+11-02-2025,20:18:00,Refund,Electronics,-194.65,2,-389.3,Charlie Brown
+11-02-2025,20:24:00,Premium,Electronics,344.82,2,689.64,John Doe
+11-02-2025,20:48:00,Normal,Grocery,485.95,3,1457.85,Charlie Brown
+11-02-2025,20:56:00,Normal,Electronics,325.84,1,325.84,John Doe
+11-02-2025,21:21:00,Member,Clothing,136.72,2,273.44,Bob Williams
+11-02-2025,21:47:00,Refund,Beauty & Personal Care,-353.23,1,-353.23,Jane Smith
+11-02-2025,21:54:00,Normal,Home & Kitchen,266.86,5,1334.3,John Doe
+11-02-2025,22:18:00,Refund,Home & Kitchen,-347.91,5,-1739.55,Bob Williams
+11-02-2025,23:17:00,Premium,Electronics,268.29,4,1073.16,Jane Smith
+11-02-2025,23:35:00,Normal,Electronics,204.76,4,819.04,Bob Williams
+11-02-2025,23:35:00,Premium,Beauty & Personal Care,306.46,3,919.38,Charlie Brown
+11-02-2025,23:35:00,Refund,Electronics,-296.21,3,-888.63,John Doe
+11-02-2025,23:39:00,Refund,Electronics,-210.08,3,-630.24,Charlie Brown
+12-02-2025,01:56:00,Refund,Clothing,-76.64,2,-153.28,John Doe
+12-02-2025,03:20:00,Premium,Beauty & Personal Care,450.32,3,1350.96,Charlie Brown
+12-02-2025,03:29:00,Refund,Beauty & Personal Care,-224.45,4,-897.8,Charlie Brown
+12-02-2025,04:01:00,Refund,Beauty & Personal Care,-128.65,5,-643.25,Charlie Brown
+12-02-2025,04:15:00,Premium,Beauty & Personal Care,351.27,5,1756.35,Alice Johnson
+12-02-2025,04:56:00,Normal,Electronics,94.96,3,284.88,John Doe
+12-02-2025,04:56:00,Refund,Beauty & Personal Care,-154.96,5,-774.8,Charlie Brown
+12-02-2025,05:30:00,Normal,Electronics,207.46,4,829.84,Jane Smith
+12-02-2025,05:40:00,Refund,Beauty & Personal Care,-50.06,4,-200.24,Charlie Brown
+12-02-2025,06:19:00,Refund,Clothing,-298.32,4,-1193.28,Bob Williams
+12-02-2025,06:29:00,Refund,Grocery,-434.55,1,-434.55,Charlie Brown
+12-02-2025,07:27:00,Member,Beauty & Personal Care,229.89,4,919.56,Alice Johnson
+12-02-2025,08:23:00,Member,Electronics,423.77,2,847.54,Alice Johnson
+12-02-2025,09:26:00,Refund,Grocery,-70.03,4,-280.12,Charlie Brown
+12-02-2025,09:39:00,Premium,Grocery,184.64,3,553.92,John Doe
+12-02-2025,09:57:00,Refund,Beauty & Personal Care,-67.22,4,-268.88,Alice Johnson
+12-02-2025,10:14:00,Normal,Beauty & Personal Care,447.43,5,2237.15,Alice Johnson
+12-02-2025,10:19:00,Normal,Electronics,78.69,3,236.07,Jane Smith
+12-02-2025,10:45:00,Normal,Clothing,161.9,3,485.7,Alice Johnson
+12-02-2025,10:52:00,Premium,Beauty & Personal Care,320.49,3,961.47,Bob Williams
+12-02-2025,11:41:00,Normal,Clothing,396.91,3,1190.73,Bob Williams
+12-02-2025,12:26:00,Refund,Clothing,-235.5,2,-471.0,Bob Williams
+12-02-2025,13:49:00,Refund,Grocery,-468.25,5,-2341.25,John Doe
+12-02-2025,14:24:00,Refund,Clothing,-192.74,3,-578.22,Charlie Brown
+12-02-2025,14:31:00,Refund,Clothing,-43.7,1,-43.7,Bob Williams
+12-02-2025,15:00:00,Refund,Home & Kitchen,-342.38,5,-1711.9,John Doe
+12-02-2025,15:26:00,Premium,Beauty & Personal Care,313.71,2,627.42,Charlie Brown
+12-02-2025,16:28:00,Premium,Grocery,427.38,2,854.76,Bob Williams
+12-02-2025,16:33:00,Refund,Grocery,-445.6,1,-445.6,Jane Smith
+12-02-2025,16:59:00,Refund,Home & Kitchen,-304.01,4,-1216.04,Charlie Brown
+12-02-2025,17:46:00,Premium,Beauty & Personal Care,40.97,1,40.97,Bob Williams
+12-02-2025,17:54:00,Premium,Home & Kitchen,209.75,1,209.75,Jane Smith
+12-02-2025,18:15:00,Member,Clothing,240.66,2,481.32,Charlie Brown
+12-02-2025,18:40:00,Refund,Home & Kitchen,-23.43,2,-46.86,John Doe
+12-02-2025,20:01:00,Premium,Electronics,387.72,3,1163.16,Bob Williams
+12-02-2025,21:11:00,Refund,Electronics,-301.38,1,-301.38,Jane Smith
+12-02-2025,22:56:00,Refund,Electronics,-131.79,3,-395.37,Bob Williams
+12-02-2025,22:59:00,Refund,Beauty & Personal Care,-401.88,1,-401.88,Alice Johnson
+12-02-2025,23:41:00,Normal,Beauty & Personal Care,171.51,2,343.02,Bob Williams
+13-02-2025,00:35:00,Normal,Beauty & Personal Care,428.83,3,1286.49,John Doe
+13-02-2025,00:58:00,Premium,Home & Kitchen,211.67,5,1058.35,Alice Johnson
+13-02-2025,01:12:00,Normal,Beauty & Personal Care,272.42,5,1362.1,John Doe
+13-02-2025,01:49:00,Refund,Grocery,-438.38,5,-2191.9,Charlie Brown
+13-02-2025,02:59:00,Refund,Electronics,-12.7,5,-63.5,Alice Johnson
+13-02-2025,03:33:00,Refund,Grocery,-297.23,3,-891.69,Alice Johnson
+13-02-2025,04:20:00,Refund,Grocery,-457.25,3,-1371.75,John Doe
+13-02-2025,05:35:00,Premium,Beauty & Personal Care,438.23,1,438.23,Bob Williams
+13-02-2025,05:46:00,Normal,Clothing,233.7,5,1168.5,Bob Williams
+13-02-2025,05:52:00,Refund,Grocery,-328.68,3,-986.04,Charlie Brown
+13-02-2025,05:53:00,Normal,Home & Kitchen,79.76,1,79.76,Jane Smith
+13-02-2025,05:56:00,Refund,Clothing,-196.17,1,-196.17,Alice Johnson
+13-02-2025,06:19:00,Normal,Clothing,297.62,1,297.62,Charlie Brown
+13-02-2025,07:34:00,Member,Electronics,453.67,5,2268.35,John Doe
+13-02-2025,08:05:00,Normal,Grocery,119.89,2,239.78,Alice Johnson
+13-02-2025,09:05:00,Member,Grocery,100.08,2,200.16,Jane Smith
+13-02-2025,09:53:00,Member,Clothing,287.37,5,1436.85,John Doe
+13-02-2025,10:07:00,Refund,Home & Kitchen,-87.39,5,-436.95,John Doe
+13-02-2025,10:27:00,Premium,Home & Kitchen,442.11,2,884.22,Alice Johnson
+13-02-2025,10:53:00,Refund,Beauty & Personal Care,-92.77,5,-463.85,Charlie Brown
+13-02-2025,11:02:00,Refund,Clothing,-385.59,1,-385.59,John Doe
+13-02-2025,13:13:00,Normal,Clothing,355.18,5,1775.9,John Doe
+13-02-2025,14:38:00,Refund,Home & Kitchen,-312.16,1,-312.16,Bob Williams
+13-02-2025,14:49:00,Premium,Electronics,228.98,5,1144.9,Charlie Brown
+13-02-2025,15:14:00,Refund,Electronics,-122.29,5,-611.45,Charlie Brown
+13-02-2025,15:54:00,Normal,Electronics,295.79,4,1183.16,Alice Johnson
+13-02-2025,16:38:00,Refund,Electronics,-367.35,4,-1469.4,Bob Williams
+13-02-2025,16:49:00,Normal,Clothing,442.77,3,1328.31,Charlie Brown
+13-02-2025,17:12:00,Premium,Electronics,73.95,5,369.75,Jane Smith
+13-02-2025,17:32:00,Premium,Beauty & Personal Care,87.02,1,87.02,Alice Johnson
+13-02-2025,19:41:00,Member,Electronics,467.09,5,2335.45,Bob Williams
+13-02-2025,19:43:00,Refund,Home & Kitchen,-270.74,5,-1353.7,Jane Smith
+13-02-2025,20:02:00,Premium,Grocery,439.09,4,1756.36,Jane Smith
+13-02-2025,20:10:00,Refund,Beauty & Personal Care,-309.75,5,-1548.75,Jane Smith
+13-02-2025,20:52:00,Refund,Clothing,-17.29,4,-69.16,Jane Smith
+13-02-2025,21:49:00,Refund,Electronics,-216.63,3,-649.89,Jane Smith
+13-02-2025,22:07:00,Refund,Clothing,-319.53,5,-1597.65,John Doe
+13-02-2025,22:57:00,Refund,Electronics,-305.42,2,-610.84,Charlie Brown
+13-02-2025,22:58:00,Member,Grocery,189.96,3,569.88,Charlie Brown
+13-02-2025,23:12:00,Refund,Electronics,-140.65,2,-281.3,Jane Smith
+13-02-2025,23:17:00,Refund,Beauty & Personal Care,-175.75,5,-878.75,Charlie Brown
+14-02-2025,00:29:00,Normal,Home & Kitchen,485.97,2,971.94,Jane Smith
+14-02-2025,00:47:00,Normal,Grocery,102.63,1,102.63,John Doe
+14-02-2025,02:18:00,Premium,Clothing,42.94,5,214.7,Alice Johnson
+14-02-2025,02:32:00,Normal,Home & Kitchen,195.15,2,390.3,Alice Johnson
+14-02-2025,03:06:00,Normal,Grocery,217.18,4,868.72,Jane Smith
+14-02-2025,03:18:00,Premium,Electronics,40.53,2,81.06,John Doe
+14-02-2025,04:03:00,Normal,Grocery,87.2,4,348.8,Jane Smith
+14-02-2025,04:48:00,Normal,Electronics,369.28,2,738.56,Alice Johnson
+14-02-2025,04:59:00,Refund,Home & Kitchen,-232.28,4,-929.12,Charlie Brown
+14-02-2025,05:37:00,Premium,Clothing,230.08,1,230.08,John Doe
+14-02-2025,05:45:00,Normal,Home & Kitchen,54.15,3,162.45,John Doe
+14-02-2025,06:22:00,Refund,Clothing,-34.25,5,-171.25,Jane Smith
+14-02-2025,06:52:00,Normal,Grocery,329.48,5,1647.4,Jane Smith
+14-02-2025,07:00:00,Member,Beauty & Personal Care,313.91,4,1255.64,Charlie Brown
+14-02-2025,08:32:00,Refund,Home & Kitchen,-324.43,3,-973.29,Jane Smith
+14-02-2025,09:07:00,Normal,Beauty & Personal Care,286.42,1,286.42,Alice Johnson
+14-02-2025,09:52:00,Member,Home & Kitchen,318.75,1,318.75,Alice Johnson
+14-02-2025,10:18:00,Refund,Grocery,-470.25,1,-470.25,Charlie Brown
+14-02-2025,13:09:00,Premium,Grocery,60.77,5,303.85,Jane Smith
+14-02-2025,13:51:00,Refund,Clothing,-73.16,5,-365.8,John Doe
+14-02-2025,14:46:00,Member,Beauty & Personal Care,469.64,4,1878.56,Jane Smith
+14-02-2025,15:49:00,Refund,Beauty & Personal Care,-341.35,5,-1706.75,John Doe
+14-02-2025,15:54:00,Refund,Home & Kitchen,-168.35,4,-673.4,Jane Smith
+14-02-2025,16:58:00,Refund,Grocery,-264.95,1,-264.95,Bob Williams
+14-02-2025,18:01:00,Normal,Home & Kitchen,256.9,3,770.7,Alice Johnson
+14-02-2025,18:03:00,Member,Electronics,74.82,4,299.28,Alice Johnson
+14-02-2025,19:23:00,Normal,Clothing,227.85,4,911.4,John Doe
+14-02-2025,20:41:00,Normal,Grocery,375.8,3,1127.4,Charlie Brown
+14-02-2025,23:29:00,Refund,Home & Kitchen,-490.28,1,-490.28,Charlie Brown
+14-02-2025,23:35:00,Refund,Clothing,-41.53,3,-124.59,Bob Williams
+15-02-2025,00:26:00,Refund,Beauty & Personal Care,-117.06,3,-351.18,Jane Smith
+15-02-2025,00:54:00,Member,Beauty & Personal Care,387.01,4,1548.04,Jane Smith
+15-02-2025,02:40:00,Member,Clothing,132.0,3,396.0,John Doe
+15-02-2025,02:55:00,Refund,Beauty & Personal Care,-459.83,2,-919.66,Charlie Brown
+15-02-2025,03:09:00,Refund,Beauty & Personal Care,-332.49,4,-1329.96,Charlie Brown
+15-02-2025,04:26:00,Refund,Home & Kitchen,-386.37,5,-1931.85,Charlie Brown
+15-02-2025,04:36:00,Member,Clothing,160.72,4,642.88,Bob Williams
+15-02-2025,04:37:00,Normal,Home & Kitchen,190.22,4,760.88,John Doe
+15-02-2025,04:43:00,Normal,Beauty & Personal Care,497.98,2,995.96,Jane Smith
+15-02-2025,04:51:00,Refund,Home & Kitchen,-44.51,3,-133.53,Alice Johnson
+15-02-2025,06:14:00,Refund,Home & Kitchen,-302.88,4,-1211.52,Bob Williams
+15-02-2025,06:15:00,Member,Clothing,207.68,2,415.36,Bob Williams
+15-02-2025,06:31:00,Premium,Beauty & Personal Care,138.31,1,138.31,Alice Johnson
+15-02-2025,07:00:00,Refund,Beauty & Personal Care,-67.27,3,-201.81,Charlie Brown
+15-02-2025,07:42:00,Member,Clothing,283.77,1,283.77,Alice Johnson
+15-02-2025,09:09:00,Refund,Grocery,-486.22,1,-486.22,Alice Johnson
+15-02-2025,09:44:00,Refund,Electronics,-249.55,4,-998.2,Jane Smith
+15-02-2025,11:10:00,Normal,Grocery,226.66,5,1133.3,Alice Johnson
+15-02-2025,12:04:00,Premium,Beauty & Personal Care,190.65,1,190.65,Jane Smith
+15-02-2025,14:01:00,Refund,Home & Kitchen,-406.74,4,-1626.96,Charlie Brown
+15-02-2025,14:43:00,Premium,Grocery,420.08,5,2100.4,Jane Smith
+15-02-2025,15:49:00,Member,Beauty & Personal Care,281.34,3,844.02,Jane Smith
+15-02-2025,16:01:00,Refund,Grocery,-419.64,3,-1258.92,John Doe
+15-02-2025,16:56:00,Refund,Electronics,-449.4,3,-1348.2,Charlie Brown
+15-02-2025,17:39:00,Member,Home & Kitchen,209.54,5,1047.7,Bob Williams
+15-02-2025,17:51:00,Refund,Beauty & Personal Care,-121.05,2,-242.1,Charlie Brown
+15-02-2025,17:57:00,Premium,Clothing,265.01,2,530.02,Alice Johnson
+15-02-2025,18:02:00,Refund,Clothing,-417.98,3,-1253.94,Charlie Brown
+15-02-2025,18:15:00,Refund,Clothing,-53.57,2,-107.14,Bob Williams
+15-02-2025,18:20:00,Normal,Grocery,486.39,2,972.78,Bob Williams
+15-02-2025,19:56:00,Premium,Home & Kitchen,371.4,4,1485.6,Charlie Brown
+15-02-2025,20:13:00,Premium,Clothing,416.76,1,416.76,Jane Smith
+15-02-2025,20:24:00,Refund,Home & Kitchen,-481.59,5,-2407.95,John Doe
+15-02-2025,20:50:00,Normal,Grocery,98.4,1,98.4,Charlie Brown
+15-02-2025,20:51:00,Refund,Home & Kitchen,-407.16,2,-814.32,John Doe
+15-02-2025,21:12:00,Normal,Home & Kitchen,161.5,4,646.0,Bob Williams
+15-02-2025,22:14:00,Normal,Clothing,36.09,4,144.36,Bob Williams
+15-02-2025,23:13:00,Refund,Clothing,-137.01,2,-274.02,Bob Williams
+15-02-2025,23:46:00,Member,Home & Kitchen,382.18,5,1910.9,Bob Williams
+16-02-2025,00:15:00,Refund,Beauty & Personal Care,-109.45,3,-328.35,Jane Smith
+16-02-2025,02:49:00,Member,Electronics,458.98,1,458.98,Jane Smith
+16-02-2025,02:58:00,Normal,Clothing,316.59,5,1582.95,Jane Smith
+16-02-2025,03:21:00,Premium,Beauty & Personal Care,474.08,4,1896.32,Jane Smith
+16-02-2025,04:10:00,Refund,Beauty & Personal Care,-454.2,1,-454.2,Alice Johnson
+16-02-2025,05:11:00,Refund,Grocery,-178.3,3,-534.9,Alice Johnson
+16-02-2025,07:29:00,Premium,Grocery,375.76,3,1127.28,Alice Johnson
+16-02-2025,07:40:00,Premium,Beauty & Personal Care,408.3,3,1224.9,John Doe
+16-02-2025,07:57:00,Normal,Grocery,285.97,5,1429.85,Jane Smith
+16-02-2025,08:45:00,Refund,Clothing,-355.64,4,-1422.56,Charlie Brown
+16-02-2025,09:09:00,Refund,Beauty & Personal Care,-377.59,1,-377.59,Alice Johnson
+16-02-2025,09:43:00,Refund,Clothing,-465.08,3,-1395.24,John Doe
+16-02-2025,09:47:00,Normal,Grocery,107.71,4,430.84,John Doe
+16-02-2025,09:52:00,Refund,Clothing,-140.8,2,-281.6,Charlie Brown
+16-02-2025,10:19:00,Refund,Home & Kitchen,-448.25,5,-2241.25,Jane Smith
+16-02-2025,10:58:00,Refund,Home & Kitchen,-454.8,5,-2274.0,Alice Johnson
+16-02-2025,11:30:00,Refund,Clothing,-399.91,4,-1599.64,Jane Smith
+16-02-2025,11:31:00,Member,Clothing,333.49,1,333.49,Bob Williams
+16-02-2025,11:38:00,Normal,Clothing,109.68,1,109.68,Charlie Brown
+16-02-2025,12:34:00,Member,Grocery,272.11,2,544.22,Bob Williams
+16-02-2025,13:05:00,Refund,Clothing,-464.94,4,-1859.76,Charlie Brown
+16-02-2025,13:09:00,Normal,Grocery,45.84,2,91.68,John Doe
+16-02-2025,13:35:00,Refund,Home & Kitchen,-264.53,4,-1058.12,Bob Williams
+16-02-2025,13:55:00,Premium,Home & Kitchen,61.4,5,307.0,Jane Smith
+16-02-2025,15:04:00,Refund,Home & Kitchen,-139.47,2,-278.94,Alice Johnson
+16-02-2025,16:14:00,Refund,Beauty & Personal Care,-224.8,4,-899.2,Alice Johnson
+16-02-2025,16:38:00,Member,Beauty & Personal Care,143.33,3,429.99,Alice Johnson
+16-02-2025,16:52:00,Refund,Home & Kitchen,-426.33,1,-426.33,Alice Johnson
+16-02-2025,17:21:00,Normal,Home & Kitchen,486.42,3,1459.26,John Doe
+16-02-2025,17:32:00,Premium,Electronics,170.77,4,683.08,Bob Williams
+16-02-2025,17:33:00,Premium,Home & Kitchen,21.11,2,42.22,Jane Smith
+16-02-2025,18:44:00,Member,Grocery,98.15,4,392.6,Charlie Brown
+16-02-2025,18:46:00,Premium,Grocery,11.83,2,23.66,Alice Johnson
+16-02-2025,19:20:00,Refund,Home & Kitchen,-195.37,4,-781.48,Jane Smith
+16-02-2025,20:37:00,Normal,Grocery,99.98,1,99.98,Charlie Brown
+16-02-2025,20:49:00,Refund,Beauty & Personal Care,-19.28,5,-96.4,Jane Smith
+16-02-2025,21:11:00,Refund,Clothing,-443.81,3,-1331.43,Alice Johnson
+16-02-2025,21:48:00,Premium,Beauty & Personal Care,155.4,3,466.2,Charlie Brown
+16-02-2025,23:40:00,Refund,Grocery,-198.54,4,-794.16,Bob Williams
+17-02-2025,00:36:00,Refund,Grocery,-64.64,5,-323.2,Alice Johnson
+17-02-2025,01:59:00,Normal,Home & Kitchen,61.52,3,184.56,Jane Smith
+17-02-2025,04:39:00,Premium,Clothing,217.48,4,869.92,Jane Smith
+17-02-2025,05:27:00,Premium,Grocery,356.1,5,1780.5,John Doe
+17-02-2025,05:59:00,Premium,Electronics,108.56,1,108.56,Jane Smith
+17-02-2025,08:41:00,Normal,Clothing,229.86,2,459.72,Bob Williams
+17-02-2025,09:00:00,Refund,Clothing,-77.72,2,-155.44,John Doe
+17-02-2025,10:26:00,Premium,Beauty & Personal Care,195.05,1,195.05,Charlie Brown
+17-02-2025,10:44:00,Refund,Beauty & Personal Care,-353.38,1,-353.38,Charlie Brown
+17-02-2025,11:12:00,Member,Beauty & Personal Care,173.67,5,868.35,Alice Johnson
+17-02-2025,11:22:00,Normal,Clothing,264.89,4,1059.56,Charlie Brown
+17-02-2025,12:35:00,Refund,Home & Kitchen,-361.9,3,-1085.7,Alice Johnson
+17-02-2025,12:55:00,Premium,Electronics,45.98,2,91.96,John Doe
+17-02-2025,13:18:00,Refund,Beauty & Personal Care,-349.53,4,-1398.12,John Doe
+17-02-2025,15:13:00,Premium,Grocery,417.32,5,2086.6,Jane Smith
+17-02-2025,15:27:00,Refund,Grocery,-417.22,1,-417.22,Alice Johnson
+17-02-2025,15:45:00,Refund,Beauty & Personal Care,-415.62,3,-1246.86,Charlie Brown
+17-02-2025,16:23:00,Refund,Clothing,-148.62,3,-445.86,John Doe
+17-02-2025,17:44:00,Normal,Beauty & Personal Care,168.65,3,505.95,Bob Williams
+17-02-2025,19:21:00,Refund,Home & Kitchen,-227.97,4,-911.88,Charlie Brown
+17-02-2025,20:04:00,Normal,Home & Kitchen,464.03,3,1392.09,John Doe
+17-02-2025,20:09:00,Refund,Grocery,-446.49,3,-1339.47,Jane Smith
+17-02-2025,20:32:00,Refund,Home & Kitchen,-278.11,2,-556.22,Bob Williams
+17-02-2025,21:29:00,Refund,Electronics,-83.54,5,-417.7,Bob Williams
+17-02-2025,21:50:00,Normal,Electronics,324.94,3,974.82,Jane Smith
+17-02-2025,21:57:00,Member,Clothing,310.11,5,1550.55,Alice Johnson
+17-02-2025,22:07:00,Member,Beauty & Personal Care,398.84,1,398.84,Charlie Brown
+17-02-2025,23:44:00,Refund,Grocery,-312.98,5,-1564.9,Alice Johnson
+18-02-2025,01:07:00,Premium,Grocery,168.97,4,675.88,Charlie Brown
+18-02-2025,01:17:00,Refund,Clothing,-135.81,4,-543.24,Jane Smith
+18-02-2025,02:49:00,Normal,Grocery,466.57,3,1399.71,John Doe
+18-02-2025,02:53:00,Refund,Electronics,-248.75,5,-1243.75,Alice Johnson
+18-02-2025,03:00:00,Normal,Electronics,291.94,4,1167.76,Charlie Brown
+18-02-2025,03:28:00,Refund,Beauty & Personal Care,-460.87,4,-1843.48,Charlie Brown
+18-02-2025,04:14:00,Refund,Clothing,-184.76,4,-739.04,Alice Johnson
+18-02-2025,04:40:00,Premium,Clothing,351.63,5,1758.15,Charlie Brown
+18-02-2025,04:55:00,Refund,Beauty & Personal Care,-253.75,2,-507.5,Alice Johnson
+18-02-2025,08:45:00,Normal,Electronics,492.09,3,1476.27,Bob Williams
+18-02-2025,09:58:00,Refund,Electronics,-318.42,5,-1592.1,Jane Smith
+18-02-2025,11:34:00,Refund,Clothing,-496.25,1,-496.25,Bob Williams
+18-02-2025,11:57:00,Refund,Electronics,-484.74,5,-2423.7,Bob Williams
+18-02-2025,13:13:00,Refund,Electronics,-252.83,4,-1011.32,Bob Williams
+18-02-2025,13:23:00,Normal,Electronics,108.3,2,216.6,Alice Johnson
+18-02-2025,13:44:00,Refund,Grocery,-340.54,4,-1362.16,Charlie Brown
+18-02-2025,14:07:00,Normal,Clothing,475.57,1,475.57,Charlie Brown
+18-02-2025,14:32:00,Refund,Home & Kitchen,-462.44,5,-2312.2,Charlie Brown
+18-02-2025,15:09:00,Premium,Electronics,237.43,3,712.29,Charlie Brown
+18-02-2025,15:16:00,Member,Clothing,47.12,1,47.12,Alice Johnson
+18-02-2025,15:42:00,Refund,Electronics,-332.37,5,-1661.85,Jane Smith
+18-02-2025,16:15:00,Member,Clothing,387.69,2,775.38,Alice Johnson
+18-02-2025,16:54:00,Refund,Grocery,-481.6,1,-481.6,Jane Smith
+18-02-2025,18:25:00,Premium,Grocery,427.15,3,1281.45,Alice Johnson
+18-02-2025,18:59:00,Member,Clothing,401.12,1,401.12,John Doe
+18-02-2025,19:10:00,Premium,Home & Kitchen,145.6,2,291.2,John Doe
+18-02-2025,19:58:00,Premium,Electronics,279.87,2,559.74,John Doe
+18-02-2025,20:38:00,Refund,Electronics,-83.85,5,-419.25,Jane Smith
+18-02-2025,20:50:00,Premium,Grocery,327.35,5,1636.75,John Doe
+18-02-2025,20:57:00,Refund,Grocery,-26.0,5,-130.0,Jane Smith
+19-02-2025,01:04:00,Premium,Grocery,197.08,1,197.08,Jane Smith
+19-02-2025,02:25:00,Refund,Home & Kitchen,-322.98,1,-322.98,Alice Johnson
+19-02-2025,02:45:00,Member,Home & Kitchen,60.73,2,121.46,Charlie Brown
+19-02-2025,02:53:00,Refund,Beauty & Personal Care,-23.24,2,-46.48,Jane Smith
+19-02-2025,03:50:00,Refund,Electronics,-392.81,5,-1964.05,Jane Smith
+19-02-2025,04:03:00,Refund,Home & Kitchen,-332.29,3,-996.87,John Doe
+19-02-2025,04:21:00,Member,Electronics,143.29,1,143.29,Charlie Brown
+19-02-2025,04:34:00,Refund,Clothing,-77.12,5,-385.6,Charlie Brown
+19-02-2025,06:03:00,Refund,Grocery,-327.63,5,-1638.15,Jane Smith
+19-02-2025,06:30:00,Refund,Electronics,-192.71,4,-770.84,Bob Williams
+19-02-2025,06:50:00,Refund,Beauty & Personal Care,-59.23,2,-118.46,Alice Johnson
+19-02-2025,07:29:00,Refund,Beauty & Personal Care,-328.89,2,-657.78,Charlie Brown
+19-02-2025,07:38:00,Normal,Home & Kitchen,131.29,2,262.58,Charlie Brown
+19-02-2025,07:41:00,Refund,Electronics,-443.24,4,-1772.96,Alice Johnson
+19-02-2025,08:19:00,Refund,Beauty & Personal Care,-36.46,3,-109.38,Charlie Brown
+19-02-2025,08:59:00,Normal,Clothing,267.41,1,267.41,Jane Smith
+19-02-2025,11:33:00,Refund,Home & Kitchen,-36.35,4,-145.4,Alice Johnson
+19-02-2025,12:17:00,Premium,Grocery,59.2,3,177.6,Jane Smith
+19-02-2025,15:17:00,Member,Clothing,291.18,3,873.54,Bob Williams
+19-02-2025,15:19:00,Normal,Clothing,393.82,5,1969.1,Alice Johnson
+19-02-2025,16:01:00,Refund,Beauty & Personal Care,-192.7,2,-385.4,John Doe
+19-02-2025,16:19:00,Premium,Home & Kitchen,85.0,2,170.0,Alice Johnson
+19-02-2025,16:46:00,Refund,Beauty & Personal Care,-72.75,3,-218.25,John Doe
+19-02-2025,17:41:00,Premium,Grocery,141.45,1,141.45,Alice Johnson
+19-02-2025,18:11:00,Refund,Grocery,-433.59,4,-1734.36,John Doe
+19-02-2025,19:47:00,Normal,Electronics,102.08,2,204.16,John Doe
+19-02-2025,20:03:00,Member,Home & Kitchen,485.68,4,1942.72,John Doe
+19-02-2025,23:00:00,Refund,Clothing,-129.8,4,-519.2,Charlie Brown
+19-02-2025,23:23:00,Refund,Home & Kitchen,-72.22,5,-361.1,Alice Johnson
+20-02-2025,02:23:00,Refund,Electronics,-336.02,1,-336.02,Bob Williams
+20-02-2025,03:17:00,Refund,Home & Kitchen,-15.17,3,-45.51,John Doe
+20-02-2025,06:38:00,Member,Home & Kitchen,247.17,3,741.51,Jane Smith
+20-02-2025,06:47:00,Refund,Home & Kitchen,-410.46,2,-820.92,Alice Johnson
+20-02-2025,07:09:00,Member,Beauty & Personal Care,84.45,3,253.35,Charlie Brown
+20-02-2025,07:12:00,Premium,Home & Kitchen,392.1,3,1176.3,Alice Johnson
+20-02-2025,07:21:00,Premium,Electronics,114.12,2,228.24,Bob Williams
+20-02-2025,08:40:00,Premium,Beauty & Personal Care,116.16,2,232.32,Jane Smith
+20-02-2025,09:31:00,Refund,Clothing,-400.13,4,-1600.52,Alice Johnson
+20-02-2025,10:30:00,Normal,Grocery,154.62,5,773.1,Jane Smith
+20-02-2025,12:21:00,Normal,Home & Kitchen,305.89,4,1223.56,Charlie Brown
+20-02-2025,12:34:00,Refund,Electronics,-237.3,2,-474.6,Bob Williams
+20-02-2025,13:31:00,Refund,Beauty & Personal Care,-179.08,2,-358.16,Bob Williams
+20-02-2025,13:31:00,Member,Beauty & Personal Care,85.74,4,342.96,John Doe
+20-02-2025,13:58:00,Normal,Home & Kitchen,378.8,1,378.8,Charlie Brown
+20-02-2025,14:02:00,Refund,Grocery,-96.14,4,-384.56,John Doe
+20-02-2025,14:05:00,Refund,Electronics,-339.37,2,-678.74,Alice Johnson
+20-02-2025,14:33:00,Refund,Clothing,-206.89,4,-827.56,Alice Johnson
+20-02-2025,15:08:00,Refund,Home & Kitchen,-260.53,2,-521.06,Charlie Brown
+20-02-2025,15:59:00,Member,Clothing,177.03,2,354.06,Jane Smith
+20-02-2025,19:14:00,Refund,Grocery,-402.04,3,-1206.12,Bob Williams
+20-02-2025,20:06:00,Normal,Electronics,432.36,4,1729.44,Charlie Brown
+20-02-2025,20:55:00,Refund,Electronics,-321.4,2,-642.8,Jane Smith
+20-02-2025,21:00:00,Premium,Beauty & Personal Care,367.34,4,1469.36,Alice Johnson
+20-02-2025,22:23:00,Member,Grocery,414.12,1,414.12,Jane Smith
+20-02-2025,23:11:00,Normal,Grocery,98.31,3,294.93,Bob Williams
+20-02-2025,23:48:00,Normal,Beauty & Personal Care,152.55,4,610.2,Jane Smith
+21-02-2025,00:40:00,Refund,Clothing,-359.06,1,-359.06,John Doe
+21-02-2025,01:36:00,Refund,Electronics,-47.65,4,-190.6,Alice Johnson
+21-02-2025,02:07:00,Member,Clothing,229.72,1,229.72,John Doe
+21-02-2025,02:27:00,Normal,Beauty & Personal Care,415.85,5,2079.25,John Doe
+21-02-2025,03:37:00,Refund,Beauty & Personal Care,-92.79,2,-185.58,Charlie Brown
+21-02-2025,06:02:00,Normal,Clothing,64.8,5,324.0,Bob Williams
+21-02-2025,06:30:00,Refund,Electronics,-227.33,4,-909.32,Alice Johnson
+21-02-2025,07:02:00,Member,Electronics,191.5,3,574.5,John Doe
+21-02-2025,07:23:00,Refund,Clothing,-146.14,4,-584.56,Charlie Brown
+21-02-2025,07:49:00,Premium,Electronics,41.44,3,124.32,Alice Johnson
+21-02-2025,07:57:00,Premium,Clothing,366.95,4,1467.8,John Doe
+21-02-2025,09:27:00,Refund,Electronics,-310.38,4,-1241.52,Charlie Brown
+21-02-2025,09:36:00,Member,Clothing,317.12,2,634.24,Bob Williams
+21-02-2025,11:05:00,Refund,Grocery,-105.4,5,-527.0,John Doe
+21-02-2025,11:12:00,Refund,Electronics,-157.95,3,-473.85,Charlie Brown
+21-02-2025,11:26:00,Member,Electronics,13.53,5,67.65,Jane Smith
+21-02-2025,12:04:00,Refund,Electronics,-188.09,4,-752.36,Charlie Brown
+21-02-2025,15:07:00,Refund,Home & Kitchen,-471.93,3,-1415.79,Alice Johnson
+21-02-2025,16:08:00,Premium,Electronics,295.16,3,885.48,Alice Johnson
+21-02-2025,17:15:00,Premium,Beauty & Personal Care,327.89,3,983.67,Alice Johnson
+21-02-2025,17:34:00,Normal,Beauty & Personal Care,118.46,3,355.38,Jane Smith
+21-02-2025,17:43:00,Member,Electronics,402.01,3,1206.03,Charlie Brown
+21-02-2025,18:10:00,Normal,Electronics,431.53,3,1294.59,Jane Smith
+21-02-2025,18:30:00,Refund,Beauty & Personal Care,-259.74,5,-1298.7,Alice Johnson
+21-02-2025,18:54:00,Refund,Home & Kitchen,-23.44,4,-93.76,Charlie Brown
+21-02-2025,19:12:00,Premium,Beauty & Personal Care,105.79,5,528.95,Bob Williams
+21-02-2025,19:35:00,Refund,Clothing,-120.42,5,-602.1,Bob Williams
+21-02-2025,19:58:00,Premium,Electronics,169.9,3,509.7,Bob Williams
+21-02-2025,20:23:00,Member,Home & Kitchen,191.3,2,382.6,Alice Johnson
+21-02-2025,23:07:00,Member,Clothing,409.35,3,1228.05,Charlie Brown
+21-02-2025,23:15:00,Normal,Beauty & Personal Care,288.13,5,1440.65,Alice Johnson
+21-02-2025,23:31:00,Member,Home & Kitchen,319.66,4,1278.64,Bob Williams
+21-02-2025,23:37:00,Refund,Grocery,-233.79,2,-467.58,Jane Smith
+21-02-2025,23:56:00,Refund,Beauty & Personal Care,-16.6,3,-49.8,Jane Smith
+22-02-2025,00:36:00,Refund,Clothing,-93.12,2,-186.24,John Doe
+22-02-2025,00:38:00,Normal,Grocery,226.56,5,1132.8,John Doe
+22-02-2025,03:28:00,Refund,Clothing,-434.38,2,-868.76,Jane Smith
+22-02-2025,03:37:00,Normal,Electronics,132.87,3,398.61,John Doe
+22-02-2025,04:46:00,Refund,Grocery,-211.16,2,-422.32,Bob Williams
+22-02-2025,08:12:00,Member,Home & Kitchen,59.33,3,177.99,Charlie Brown
+22-02-2025,08:43:00,Member,Beauty & Personal Care,59.43,3,178.29,Jane Smith
+22-02-2025,09:08:00,Member,Home & Kitchen,257.83,3,773.49,Jane Smith
+22-02-2025,09:25:00,Refund,Clothing,-480.14,4,-1920.56,Bob Williams
+22-02-2025,11:41:00,Refund,Electronics,-45.88,3,-137.64,Jane Smith
+22-02-2025,13:18:00,Premium,Beauty & Personal Care,215.19,1,215.19,Bob Williams
+22-02-2025,13:48:00,Refund,Electronics,-453.07,3,-1359.21,Bob Williams
+22-02-2025,14:00:00,Refund,Home & Kitchen,-398.66,4,-1594.64,Bob Williams
+22-02-2025,14:15:00,Premium,Home & Kitchen,177.74,5,888.7,John Doe
+22-02-2025,14:52:00,Member,Clothing,371.49,3,1114.47,Jane Smith
+22-02-2025,14:57:00,Premium,Electronics,383.71,2,767.42,Charlie Brown
+22-02-2025,15:05:00,Refund,Electronics,-66.99,4,-267.96,Jane Smith
+22-02-2025,15:29:00,Refund,Beauty & Personal Care,-117.13,4,-468.52,Bob Williams
+22-02-2025,16:23:00,Member,Home & Kitchen,383.19,3,1149.57,John Doe
+22-02-2025,16:34:00,Member,Clothing,457.02,3,1371.06,John Doe
+22-02-2025,17:10:00,Refund,Clothing,-191.38,3,-574.14,Jane Smith
+22-02-2025,17:37:00,Member,Beauty & Personal Care,87.45,1,87.45,John Doe
+22-02-2025,17:50:00,Premium,Beauty & Personal Care,300.79,2,601.58,John Doe
+22-02-2025,18:03:00,Refund,Clothing,-414.33,3,-1242.99,Jane Smith
+22-02-2025,18:19:00,Refund,Clothing,-369.95,3,-1109.85,Bob Williams
+22-02-2025,19:17:00,Refund,Clothing,-161.1,3,-483.3,Alice Johnson
+22-02-2025,20:33:00,Normal,Grocery,89.19,4,356.76,Charlie Brown
+22-02-2025,21:02:00,Member,Beauty & Personal Care,34.05,3,102.15,Charlie Brown
+22-02-2025,21:50:00,Normal,Clothing,351.96,3,1055.88,Jane Smith
+22-02-2025,22:27:00,Refund,Clothing,-18.8,2,-37.6,Jane Smith
+22-02-2025,23:59:00,Refund,Electronics,-394.1,2,-788.2,John Doe
+23-02-2025,01:03:00,Refund,Electronics,-145.18,5,-725.9,Alice Johnson
+23-02-2025,01:58:00,Normal,Clothing,280.41,2,560.82,John Doe
+23-02-2025,02:28:00,Refund,Electronics,-389.32,1,-389.32,Alice Johnson
+23-02-2025,04:18:00,Normal,Clothing,383.1,5,1915.5,Bob Williams
+23-02-2025,05:06:00,Normal,Beauty & Personal Care,385.93,3,1157.79,Bob Williams
+23-02-2025,06:11:00,Premium,Home & Kitchen,124.39,5,621.95,Jane Smith
+23-02-2025,06:13:00,Refund,Beauty & Personal Care,-261.72,5,-1308.6,Jane Smith
+23-02-2025,06:35:00,Refund,Beauty & Personal Care,-59.65,1,-59.65,John Doe
+23-02-2025,06:53:00,Normal,Grocery,194.31,5,971.55,Jane Smith
+23-02-2025,08:05:00,Normal,Clothing,383.0,5,1915.0,Alice Johnson
+23-02-2025,11:06:00,Premium,Home & Kitchen,213.24,3,639.72,Charlie Brown
+23-02-2025,11:20:00,Refund,Home & Kitchen,-367.48,4,-1469.92,Alice Johnson
+23-02-2025,12:32:00,Premium,Home & Kitchen,184.06,2,368.12,Charlie Brown
+23-02-2025,13:21:00,Normal,Clothing,101.94,2,203.88,Bob Williams
+23-02-2025,14:09:00,Premium,Electronics,30.54,3,91.62,John Doe
+23-02-2025,14:27:00,Refund,Clothing,-353.7,1,-353.7,Bob Williams
+23-02-2025,15:14:00,Refund,Electronics,-210.76,2,-421.52,Jane Smith
+23-02-2025,16:24:00,Normal,Home & Kitchen,412.48,2,824.96,Jane Smith
+23-02-2025,16:46:00,Premium,Clothing,340.99,3,1022.97,Bob Williams
+23-02-2025,17:02:00,Refund,Home & Kitchen,-461.44,1,-461.44,Jane Smith
+23-02-2025,17:47:00,Premium,Electronics,365.4,4,1461.6,John Doe
+23-02-2025,18:26:00,Refund,Home & Kitchen,-295.1,5,-1475.5,Charlie Brown
+23-02-2025,18:39:00,Refund,Beauty & Personal Care,-102.86,1,-102.86,Bob Williams
+23-02-2025,18:51:00,Refund,Home & Kitchen,-299.52,1,-299.52,Bob Williams
+23-02-2025,19:35:00,Refund,Electronics,-466.26,1,-466.26,Jane Smith
+23-02-2025,19:45:00,Member,Beauty & Personal Care,351.02,2,702.04,Bob Williams
+23-02-2025,20:00:00,Premium,Home & Kitchen,190.21,2,380.42,Alice Johnson
+23-02-2025,20:37:00,Member,Home & Kitchen,99.14,2,198.28,Bob Williams
+23-02-2025,23:02:00,Member,Grocery,314.42,4,1257.68,Charlie Brown
+23-02-2025,23:11:00,Refund,Home & Kitchen,-91.67,2,-183.34,Bob Williams
+23-02-2025,23:22:00,Premium,Home & Kitchen,128.51,5,642.55,John Doe
+23-02-2025,23:57:00,Premium,Home & Kitchen,365.97,1,365.97,Charlie Brown
+24-02-2025,01:45:00,Refund,Grocery,-309.15,5,-1545.75,Bob Williams
+24-02-2025,01:59:00,Premium,Beauty & Personal Care,58.13,4,232.52,Charlie Brown
+24-02-2025,02:12:00,Normal,Clothing,241.21,5,1206.05,Alice Johnson
+24-02-2025,02:27:00,Member,Beauty & Personal Care,322.1,3,966.3,Charlie Brown
+24-02-2025,02:40:00,Refund,Home & Kitchen,-36.38,2,-72.76,Alice Johnson
+24-02-2025,04:12:00,Refund,Electronics,-424.47,1,-424.47,Charlie Brown
+24-02-2025,04:33:00,Member,Home & Kitchen,253.41,5,1267.05,Charlie Brown
+24-02-2025,04:36:00,Refund,Grocery,-412.68,2,-825.36,Charlie Brown
+24-02-2025,05:00:00,Normal,Beauty & Personal Care,400.05,4,1600.2,John Doe
+24-02-2025,05:14:00,Refund,Beauty & Personal Care,-423.06,3,-1269.18,Alice Johnson
+24-02-2025,05:27:00,Member,Electronics,153.02,2,306.04,Bob Williams
+24-02-2025,05:40:00,Refund,Clothing,-373.41,5,-1867.05,Alice Johnson
+24-02-2025,05:55:00,Premium,Home & Kitchen,351.17,4,1404.68,Alice Johnson
+24-02-2025,06:01:00,Refund,Beauty & Personal Care,-393.69,1,-393.69,Charlie Brown
+24-02-2025,06:28:00,Refund,Electronics,-282.13,1,-282.13,Bob Williams
+24-02-2025,06:43:00,Refund,Electronics,-342.17,3,-1026.51,John Doe
+24-02-2025,06:47:00,Refund,Clothing,-90.79,2,-181.58,John Doe
+24-02-2025,09:11:00,Premium,Clothing,116.67,2,233.34,Charlie Brown
+24-02-2025,09:16:00,Premium,Clothing,468.71,4,1874.84,Charlie Brown
+24-02-2025,09:36:00,Normal,Beauty & Personal Care,297.17,5,1485.85,Charlie Brown
+24-02-2025,11:49:00,Refund,Electronics,-226.48,2,-452.96,Charlie Brown
+24-02-2025,12:30:00,Refund,Clothing,-233.91,2,-467.82,Bob Williams
+24-02-2025,13:55:00,Refund,Clothing,-100.83,4,-403.32,Charlie Brown
+24-02-2025,14:18:00,Premium,Clothing,450.59,5,2252.95,Alice Johnson
+24-02-2025,14:46:00,Refund,Electronics,-160.49,3,-481.47,Bob Williams
+24-02-2025,16:22:00,Normal,Home & Kitchen,451.75,1,451.75,Charlie Brown
+24-02-2025,16:32:00,Normal,Clothing,300.83,1,300.83,Charlie Brown
+24-02-2025,16:33:00,Refund,Grocery,-266.53,4,-1066.12,John Doe
+24-02-2025,16:36:00,Premium,Clothing,386.68,1,386.68,John Doe
+24-02-2025,16:44:00,Premium,Electronics,30.32,1,30.32,Charlie Brown
+24-02-2025,17:35:00,Refund,Clothing,-233.61,2,-467.22,Bob Williams
+24-02-2025,17:46:00,Refund,Beauty & Personal Care,-152.89,4,-611.56,John Doe
+24-02-2025,18:14:00,Premium,Home & Kitchen,486.72,1,486.72,Jane Smith
+24-02-2025,18:15:00,Member,Clothing,433.05,5,2165.25,Jane Smith
+24-02-2025,18:50:00,Refund,Beauty & Personal Care,-404.78,2,-809.56,Bob Williams
+24-02-2025,19:34:00,Member,Electronics,311.04,4,1244.16,Jane Smith
+24-02-2025,20:28:00,Normal,Beauty & Personal Care,304.64,2,609.28,Bob Williams
+24-02-2025,21:11:00,Refund,Home & Kitchen,-105.27,2,-210.54,Bob Williams
+24-02-2025,23:42:00,Refund,Electronics,-427.81,5,-2139.05,Charlie Brown
+25-02-2025,00:02:00,Refund,Home & Kitchen,-266.07,4,-1064.28,Alice Johnson
+25-02-2025,00:14:00,Normal,Electronics,149.17,2,298.34,Bob Williams
+25-02-2025,02:30:00,Refund,Grocery,-217.55,5,-1087.75,Bob Williams
+25-02-2025,03:24:00,Premium,Electronics,178.95,2,357.9,Jane Smith
+25-02-2025,04:05:00,Refund,Beauty & Personal Care,-347.79,5,-1738.95,John Doe
+25-02-2025,04:38:00,Refund,Beauty & Personal Care,-275.17,2,-550.34,Jane Smith
+25-02-2025,04:49:00,Refund,Home & Kitchen,-103.62,1,-103.62,John Doe
+25-02-2025,05:39:00,Refund,Clothing,-86.19,1,-86.19,Bob Williams
+25-02-2025,06:33:00,Refund,Electronics,-378.84,2,-757.68,Charlie Brown
+25-02-2025,08:19:00,Refund,Home & Kitchen,-189.29,3,-567.87,Bob Williams
+25-02-2025,08:30:00,Normal,Beauty & Personal Care,46.78,3,140.34,John Doe
+25-02-2025,08:39:00,Refund,Clothing,-347.97,4,-1391.88,John Doe
+25-02-2025,08:58:00,Refund,Clothing,-485.6,5,-2428.0,Bob Williams
+25-02-2025,09:00:00,Refund,Grocery,-411.04,2,-822.08,Alice Johnson
+25-02-2025,10:14:00,Refund,Electronics,-379.18,3,-1137.54,Alice Johnson
+25-02-2025,10:18:00,Refund,Electronics,-298.82,5,-1494.1,Alice Johnson
+25-02-2025,12:01:00,Member,Beauty & Personal Care,173.69,3,521.07,Alice Johnson
+25-02-2025,12:11:00,Member,Grocery,220.12,3,660.36,Charlie Brown
+25-02-2025,12:45:00,Refund,Grocery,-301.7,3,-905.1,Alice Johnson
+25-02-2025,13:35:00,Refund,Home & Kitchen,-427.2,5,-2136.0,Alice Johnson
+25-02-2025,13:54:00,Normal,Clothing,279.21,1,279.21,Bob Williams
+25-02-2025,14:08:00,Refund,Clothing,-349.2,5,-1746.0,John Doe
+25-02-2025,15:20:00,Refund,Beauty & Personal Care,-189.45,3,-568.35,Charlie Brown
+25-02-2025,16:53:00,Member,Grocery,411.23,3,1233.69,Alice Johnson
+25-02-2025,17:16:00,Refund,Electronics,-295.86,4,-1183.44,Bob Williams
+25-02-2025,19:13:00,Premium,Beauty & Personal Care,402.07,1,402.07,John Doe
+25-02-2025,19:32:00,Refund,Clothing,-202.09,1,-202.09,Charlie Brown
+25-02-2025,20:25:00,Normal,Beauty & Personal Care,424.01,5,2120.05,Jane Smith
+25-02-2025,21:51:00,Refund,Home & Kitchen,-60.01,1,-60.01,Bob Williams
+25-02-2025,21:52:00,Refund,Beauty & Personal Care,-310.91,1,-310.91,John Doe
+25-02-2025,23:02:00,Refund,Clothing,-414.44,4,-1657.76,Bob Williams
+25-02-2025,23:40:00,Normal,Clothing,474.47,5,2372.35,Charlie Brown
+26-02-2025,00:31:00,Refund,Home & Kitchen,-315.82,1,-315.82,Jane Smith
+26-02-2025,00:48:00,Normal,Grocery,116.73,4,466.92,Alice Johnson
+26-02-2025,00:51:00,Premium,Grocery,458.14,3,1374.42,Alice Johnson
+26-02-2025,01:15:00,Refund,Clothing,-98.17,5,-490.85,Charlie Brown
+26-02-2025,01:53:00,Refund,Clothing,-286.68,2,-573.36,Jane Smith
+26-02-2025,02:57:00,Refund,Beauty & Personal Care,-403.56,2,-807.12,Charlie Brown
+26-02-2025,03:41:00,Refund,Home & Kitchen,-319.91,4,-1279.64,Charlie Brown
+26-02-2025,04:13:00,Refund,Home & Kitchen,-217.65,3,-652.95,Bob Williams
+26-02-2025,04:14:00,Member,Beauty & Personal Care,77.65,3,232.95,Alice Johnson
+26-02-2025,05:38:00,Refund,Beauty & Personal Care,-222.77,4,-891.08,Charlie Brown
+26-02-2025,06:11:00,Refund,Clothing,-473.3,2,-946.6,Jane Smith
+26-02-2025,06:17:00,Refund,Beauty & Personal Care,-301.22,4,-1204.88,Bob Williams
+26-02-2025,06:48:00,Refund,Beauty & Personal Care,-178.49,5,-892.45,Alice Johnson
+26-02-2025,07:10:00,Refund,Home & Kitchen,-97.42,1,-97.42,Bob Williams
+26-02-2025,08:00:00,Premium,Beauty & Personal Care,143.41,2,286.82,Alice Johnson
+26-02-2025,10:07:00,Member,Clothing,438.16,2,876.32,Alice Johnson
+26-02-2025,10:23:00,Normal,Grocery,18.48,3,55.44,John Doe
+26-02-2025,11:25:00,Refund,Electronics,-369.01,4,-1476.04,John Doe
+26-02-2025,11:34:00,Member,Home & Kitchen,360.87,3,1082.61,Jane Smith
+26-02-2025,11:48:00,Refund,Electronics,-493.1,2,-986.2,Bob Williams
+26-02-2025,11:54:00,Member,Beauty & Personal Care,187.53,3,562.59,Jane Smith
+26-02-2025,12:15:00,Premium,Home & Kitchen,122.84,4,491.36,Jane Smith
+26-02-2025,12:52:00,Member,Home & Kitchen,173.86,2,347.72,John Doe
+26-02-2025,13:21:00,Refund,Clothing,-183.16,3,-549.48,Bob Williams
+26-02-2025,13:49:00,Member,Home & Kitchen,408.8,5,2044.0,Alice Johnson
+26-02-2025,14:35:00,Refund,Electronics,-324.83,2,-649.66,Bob Williams
+26-02-2025,14:58:00,Member,Electronics,21.13,3,63.39,Charlie Brown
+26-02-2025,15:24:00,Refund,Clothing,-335.29,3,-1005.87,Bob Williams
+26-02-2025,18:58:00,Refund,Grocery,-383.7,2,-767.4,Charlie Brown
+26-02-2025,19:59:00,Member,Clothing,372.12,2,744.24,John Doe
+26-02-2025,20:57:00,Refund,Clothing,-29.83,2,-59.66,Alice Johnson
+26-02-2025,21:30:00,Premium,Home & Kitchen,265.17,3,795.51,Jane Smith
+26-02-2025,21:37:00,Normal,Electronics,10.29,4,41.16,Bob Williams
+26-02-2025,22:10:00,Premium,Electronics,67.33,1,67.33,Charlie Brown
+26-02-2025,22:38:00,Premium,Home & Kitchen,205.66,5,1028.3,Bob Williams
+26-02-2025,23:36:00,Refund,Beauty & Personal Care,-58.12,1,-58.12,Alice Johnson
+26-02-2025,23:39:00,Premium,Beauty & Personal Care,83.12,4,332.48,Charlie Brown
+26-02-2025,23:44:00,Refund,Home & Kitchen,-204.0,1,-204.0,Alice Johnson
+26-02-2025,23:47:00,Refund,Grocery,-237.18,1,-237.18,Charlie Brown
+26-02-2025,23:48:00,Member,Electronics,405.2,2,810.4,Alice Johnson
+27-02-2025,00:20:00,Premium,Home & Kitchen,453.26,4,1813.04,Alice Johnson
+27-02-2025,02:35:00,Refund,Clothing,-193.61,1,-193.61,Charlie Brown
+27-02-2025,03:32:00,Refund,Beauty & Personal Care,-358.93,2,-717.86,Bob Williams
+27-02-2025,04:32:00,Refund,Clothing,-277.34,5,-1386.7,Charlie Brown
+27-02-2025,05:08:00,Premium,Electronics,370.07,1,370.07,Charlie Brown
+27-02-2025,05:16:00,Refund,Clothing,-391.27,5,-1956.35,Bob Williams
+27-02-2025,06:37:00,Refund,Home & Kitchen,-62.27,2,-124.54,John Doe
+27-02-2025,06:41:00,Refund,Electronics,-116.33,2,-232.66,Jane Smith
+27-02-2025,07:42:00,Refund,Clothing,-334.29,3,-1002.87,John Doe
+27-02-2025,07:50:00,Normal,Beauty & Personal Care,87.76,4,351.04,Charlie Brown
+27-02-2025,08:05:00,Refund,Grocery,-407.32,1,-407.32,Jane Smith
+27-02-2025,08:32:00,Member,Beauty & Personal Care,141.64,2,283.28,John Doe
+27-02-2025,10:17:00,Member,Grocery,94.44,5,472.2,Jane Smith
+27-02-2025,12:22:00,Refund,Grocery,-339.68,2,-679.36,Jane Smith
+27-02-2025,12:42:00,Refund,Beauty & Personal Care,-39.43,5,-197.15,Alice Johnson
+27-02-2025,13:49:00,Refund,Clothing,-376.79,3,-1130.37,Bob Williams
+27-02-2025,14:32:00,Premium,Home & Kitchen,293.64,4,1174.56,Alice Johnson
+27-02-2025,14:35:00,Premium,Beauty & Personal Care,243.0,1,243.0,Charlie Brown
+27-02-2025,14:47:00,Member,Clothing,248.41,3,745.23,John Doe
+27-02-2025,16:05:00,Refund,Electronics,-300.85,5,-1504.25,Charlie Brown
+27-02-2025,16:39:00,Member,Home & Kitchen,322.71,5,1613.55,John Doe
+27-02-2025,16:47:00,Refund,Beauty & Personal Care,-181.74,4,-726.96,Charlie Brown
+27-02-2025,17:06:00,Premium,Beauty & Personal Care,33.93,2,67.86,John Doe
+27-02-2025,17:22:00,Premium,Grocery,348.67,3,1046.01,Jane Smith
+27-02-2025,17:23:00,Refund,Electronics,-40.26,3,-120.78,Charlie Brown
+27-02-2025,17:26:00,Member,Clothing,219.32,2,438.64,Jane Smith
+27-02-2025,17:42:00,Normal,Home & Kitchen,149.87,5,749.35,Bob Williams
+27-02-2025,17:59:00,Member,Clothing,65.89,3,197.67,John Doe
+27-02-2025,18:09:00,Refund,Beauty & Personal Care,-386.91,5,-1934.55,Jane Smith
+27-02-2025,18:27:00,Premium,Home & Kitchen,160.53,5,802.65,Charlie Brown
+27-02-2025,20:34:00,Member,Clothing,408.98,1,408.98,Charlie Brown
+27-02-2025,21:37:00,Refund,Home & Kitchen,-186.66,3,-559.98,Charlie Brown
+27-02-2025,21:45:00,Normal,Electronics,33.59,3,100.77,Charlie Brown
+27-02-2025,21:51:00,Normal,Grocery,145.46,1,145.46,John Doe
+28-02-2025,00:07:00,Normal,Clothing,323.05,1,323.05,Bob Williams
+28-02-2025,00:30:00,Member,Home & Kitchen,288.77,5,1443.85,Charlie Brown
+28-02-2025,01:21:00,Refund,Clothing,-293.58,4,-1174.32,Alice Johnson
+28-02-2025,01:43:00,Refund,Clothing,-311.14,5,-1555.7,Charlie Brown
+28-02-2025,01:54:00,Refund,Beauty & Personal Care,-84.67,5,-423.35,Alice Johnson
+28-02-2025,02:09:00,Premium,Electronics,164.87,5,824.35,Charlie Brown
+28-02-2025,02:12:00,Premium,Grocery,257.12,4,1028.48,Jane Smith
+28-02-2025,03:23:00,Member,Beauty & Personal Care,401.0,2,802.0,John Doe
+28-02-2025,03:30:00,Member,Grocery,321.72,3,965.16,John Doe
+28-02-2025,05:00:00,Premium,Clothing,156.33,4,625.32,Alice Johnson
+28-02-2025,05:08:00,Refund,Electronics,-397.94,5,-1989.7,Charlie Brown
+28-02-2025,05:18:00,Member,Electronics,84.27,1,84.27,Charlie Brown
+28-02-2025,05:54:00,Refund,Clothing,-288.34,1,-288.34,Charlie Brown
+28-02-2025,06:05:00,Premium,Home & Kitchen,112.63,5,563.15,Charlie Brown
+28-02-2025,06:23:00,Refund,Clothing,-28.26,4,-113.04,Charlie Brown
+28-02-2025,08:30:00,Member,Beauty & Personal Care,238.2,3,714.6,Charlie Brown
+28-02-2025,08:35:00,Refund,Clothing,-363.7,5,-1818.5,Bob Williams
+28-02-2025,08:58:00,Refund,Beauty & Personal Care,-445.67,5,-2228.35,Alice Johnson
+28-02-2025,10:10:00,Normal,Beauty & Personal Care,135.47,3,406.41,Jane Smith
+28-02-2025,11:15:00,Premium,Beauty & Personal Care,408.9,2,817.8,Alice Johnson
+28-02-2025,11:31:00,Refund,Electronics,-408.49,3,-1225.47,Charlie Brown
+28-02-2025,12:38:00,Normal,Beauty & Personal Care,252.71,5,1263.55,Bob Williams
+28-02-2025,12:46:00,Premium,Electronics,329.8,4,1319.2,John Doe
+28-02-2025,13:26:00,Refund,Beauty & Personal Care,-249.78,4,-999.12,Bob Williams
+28-02-2025,14:11:00,Member,Grocery,485.88,3,1457.64,Bob Williams
+28-02-2025,14:21:00,Premium,Grocery,389.71,5,1948.55,John Doe
+28-02-2025,14:38:00,Refund,Electronics,-295.96,4,-1183.84,Alice Johnson
+28-02-2025,15:36:00,Refund,Beauty & Personal Care,-339.8,2,-679.6,John Doe
+28-02-2025,17:03:00,Normal,Clothing,322.77,1,322.77,Alice Johnson
+28-02-2025,18:03:00,Refund,Beauty & Personal Care,-29.67,1,-29.67,John Doe
+28-02-2025,19:17:00,Member,Electronics,217.33,3,651.99,Jane Smith
+28-02-2025,19:28:00,Normal,Home & Kitchen,64.63,1,64.63,Jane Smith
+28-02-2025,20:37:00,Refund,Home & Kitchen,-446.14,2,-892.28,John Doe
+28-02-2025,21:03:00,Normal,Clothing,92.72,5,463.6,Charlie Brown
+28-02-2025,23:37:00,Refund,Home & Kitchen,-60.44,1,-60.44,Jane Smith
+28-02-2025,23:42:00,Refund,Beauty & Personal Care,-34.85,5,-174.25,Jane Smith

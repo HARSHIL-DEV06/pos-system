@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Chart</title>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 40px;
+    }
+    canvas {
+      max-width: 800px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>10 Days Sales Chart</h2>
+
+<canvas id="salesChart"></canvas>
+
+<script>
+
+// ✅ STEP 4 — Your Data (Replace with your own)
+
+const dates = [
+  "2024-01-01",
+  "2024-01-02",
+  "2024-01-03",
+  "2024-01-04",
+  "2024-01-05",
+  "2024-01-06",
+  "2024-01-07",
+  "2024-01-08",
+  "2024-01-09",
+  "2024-01-10"
+];
+
+const sales = [
+  15000,
+  17000,
+  16000,
+  18000,
+  15500,
+  16500,
+  17500,
+  16800,
+  17200,
+  17800
+];
+
+// ✅ STEP 5 — Create Chart
+
+new Chart(document.getElementById("salesChart"), {
+  type: 'line',   // line chart
+  data: {
+    labels: dates,
+    datasets: [{
+      label: "Sales (₹)",
+      data: sales,
+      borderWidth: 3,
+      tension: 0.4,        // smooth curve
+      fill: true           // fill area under line
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            return "₹ " + context.raw;
+          }
+        }
+      }
+    }
+  }
+});
+
+</script>
+
+</body>
+</html>

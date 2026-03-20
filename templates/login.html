@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Predict POS | Secure Access</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="login-bg">
+    <div class="login-card">
+        <div class="brand" style="justify-content: center; margin-bottom: 40px; padding: 0;">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="SalesIQ Logo" style="height: 120px; width: auto; object-fit: contain;">
+        </div>
+
+        <h2>Welcome Back</h2>
+        <p>Please enter your operational credentials</p>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Identity</label>
+                <input type="text" id="username" placeholder="Enter your ID" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Access Key</label>
+                <div style="position: relative; display: flex; align-items: center;">
+                    <input type="password" id="password" placeholder="••••••••" required style="padding-right: 40px;">
+                    <button type="button" id="togglePassword" style="position: absolute; right: 12px; background: none; border: none; cursor: pointer; color: var(--text-secondary); opacity: 0.7; transition: 0.2s;">
+                        <!-- SVG Eye Icon -->
+                        <svg id="eyeIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-auth">
+                Authenticate System
+            </button>
+        </form>
+
+        <div id="loginError" style="color: var(--danger); font-size: 13px; margin-top: 20px; font-weight: 600; display: none;">
+            Invalid ID or Access Key. Please try again.
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='auth.js') }}"></script>
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            const passwordInput = document.getElementById('password');
+            const eyeIcon = document.getElementById('eyeIcon');
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                // Change to eye-off (slashed eye)
+                eyeIcon.innerHTML = `<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>`;
+            } else {
+                passwordInput.type = 'password';
+                // Change back to normal eye
+                eyeIcon.innerHTML = `<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>`;
+            }
+        });
+    </script>
+</body>
+</html>

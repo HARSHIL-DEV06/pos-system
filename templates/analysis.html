@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Sales Prediction POS | Intelligence Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand" style="justify-content: center; padding-bottom: 30px;">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="SalesIQ Logo" style="height: 100px; width: auto; object-fit: contain;">
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="/dashboard" class="nav-link">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/analysis" class="nav-link active">
+                            Deep Analysis
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; font-weight: 800; margin-bottom: 20px; letter-spacing: 1.5px;">Control Center</p>
+                
+                <input type="file" id="globalCsvInput" accept=".csv" hidden>
+                <a href="javascript:void(0)" onclick="document.getElementById('globalCsvInput').click()" class="nav-link" style="color: var(--accent-blue); border-color: rgba(37, 99, 235, 0.1); background: rgba(37, 99, 235, 0.05); margin-bottom: 8px;">
+                    <span style="font-weight: 800;">Import Business Data</span>
+                </a>
+                
+                <a href="javascript:void(0)" onclick="logout()" class="nav-link" style="color: var(--danger); border-color: rgba(239, 68, 68, 0.1); background: rgba(239, 68, 68, 0.05);">
+                    <span style="font-weight: 800;">Sign Out</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-viewport">
+            <header class="top-bar">
+                <div class="page-title">
+                    <h1>Intelligence Lab</h1>
+                    <p>Advanced revenue projection and growth modeling</p>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
+                    <div class="badge" style="background: var(--bg-sidebar); border: 1px solid var(--border-glass); color: var(--accent-blue); font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">AI Engine Active</div>
+                    <div id="dataCoverage" style="font-size: 11px; color: var(--text-secondary); font-weight: 700;">Coverage: Loading...</div>
+                </div>
+            </header>
+
+            <div class="analysis-layout" style="grid-template-columns: 1fr 1fr;">
+                <!-- Left: Historical & Logic -->
+                <div class="chart-section">
+                    <div class="glass-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                            <h3>Historical Convergence</h3>
+                            <p style="font-size: 12px; color: var(--text-secondary);">Last 30 Active Days</p>
+                        </div>
+                        <div style="height: 300px;">
+                            <canvas id="historicalChartDeep"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3>Intelligence Summary</h3>
+                        <div id="aiSummary" style="margin-top: 16px;">
+                            <p style="color: var(--text-secondary); font-size: 14px;">Upload a CSV to dynamically retrain the XGBoost model and regenerate seasonal benchmarks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Future Projection & Controls -->
+                <div class="chart-section">
+                    <div class="glass-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <h3>AI Revenue Forecast (90 Days)</h3>
+                            <span class="badge" style="background: rgba(99, 102, 241, 0.2); color: var(--accent-blue); padding: 4px 12px; border-radius: 20px; font-size: 10px; font-weight: 700;">AI ENGINED</span>
+                        </div>
+                        
+                        <div class="slider-container" style="background: rgba(255,255,255,0.02); padding: 16px; border-radius: 12px; margin-bottom: 20px; border: 1px solid var(--border-glass);">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <label style="font-size: 13px; font-weight: 600;">Confidence Buffer</label>
+                                <span id="confidenceVal" style="color: var(--accent-cyan);">±15%</span>
+                            </div>
+                            <input type="range" id="confidenceSlider" min="0" max="50" value="15" style="width: 100%; height: 6px; appearance: none; background: #e2e8f0; border-radius: 3px; outline: none;">
+                        </div>
+
+                        <div style="height: 250px;">
+                            <canvas id="forecastChartDeep"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3>Distribution Analysis</h3>
+                        <div style="height: 200px;">
+                            <canvas id="donutChartDeep"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer style="margin-top: 40px; text-align: center; border-top: 1px solid var(--border-glass); padding-top: 20px;">
+                <button class="btn-glass" style="border-color: var(--success); color: var(--success);" onclick="window.location.href='/api/export_report'">
+                    📄 Generate Comprehensive PDF Audit
+                </button>
+            </footer>
+        </main>
+
+
+        <!-- Insight Modal (Popup) -->
+        <div id="insightOverlay" class="insight-overlay">
+            <div class="insight-modal">
+                <div class="drawer-header">
+                    <h3 id="modalTitle">Prediction Insight</h3>
+                    <button class="close-drawer" onclick="closeModal()">&times;</button>
+                </div>
+                
+                <div class="modal-grid">
+                    <div class="modal-chart-container">
+                        <canvas id="modalChart"></canvas>
+                    </div>
+                    <div id="modalContent" class="insight-explanation">
+                        <!-- Smart data insights pop here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='analysis.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Forecasting - Register</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=1.0"> -->
+    <link rel="stylesheet" href="../static/styles.css?v=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box fade-in">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="8" fill="#4169FF"/>
+                        <path d="M12 20L16 16L20 18L24 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 14H24V18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h1 class="title">Sales Forecasting</h1>
+                <p class="subtitle">Live POS Data Simulation</p>
+            </div>
+
+            <form id="registerForm" class="auth-form">
+                <div class="form-group">
+                    <label for="branchId">Branch Id</label>
+                    <input 
+                        type="text" 
+                        id="branchId" 
+                        name="branchId" 
+                        placeholder="02-0458"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="fullName">FULL Name</label>
+                    <input 
+                        type="text" 
+                        id="fullName" 
+                        name="fullName" 
+                        placeholder="Henry Olssen"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="storeName">Store/Organization Name</label>
+                    <input 
+                        type="text" 
+                        id="storeName" 
+                        name="storeName" 
+                        placeholder="D-Mart"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="workEmail">Work Email</label>
+                    <input 
+                        type="email" 
+                        id="workEmail" 
+                        name="workEmail" 
+                        placeholder="name@company.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input 
+                        type="password" 
+                        id="registerPassword" 
+                        name="registerPassword" 
+                        placeholder="••••••••••"
+                        required
+                    >
+                    <small class="form-hint">Must be at least 8 characters with one number.</small>
+                </div>
+
+                <button type="submit" class="btn-primary">Register</button>
+
+                <p class="terms-text">
+                    By registering, you agree to the <a href="#" class="link">NDA & Data Privacy terms</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- <script src="auth.js"></script> -->
+        <script src="../static/auth.js"></script>
+</body>
+</html>

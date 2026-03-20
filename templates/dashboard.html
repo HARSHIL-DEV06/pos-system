@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Sales Prediction POS | Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand" style="justify-content: center; padding-bottom: 30px;">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="SalesIQ Logo" style="height: 100px; width: auto; object-fit: contain;">
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="/dashboard" class="nav-link active">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/analysis" class="nav-link">
+                            Deep Analysis
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; font-weight: 800; margin-bottom: 20px; letter-spacing: 1.5px;">Control Center</p>
+                
+                <input type="file" id="globalCsvInput" accept=".csv" hidden>
+                <a href="javascript:void(0)" onclick="document.getElementById('globalCsvInput').click()" class="nav-link" style="color: var(--accent-blue); border-color: rgba(37, 99, 235, 0.1); background: rgba(37, 99, 235, 0.05); margin-bottom: 8px;">
+                    <span style="font-weight: 800;">Import Business Data</span>
+                </a>
+                
+                <a href="javascript:void(0)" onclick="logout()" class="nav-link" style="color: var(--danger); border-color: rgba(239, 68, 68, 0.1); background: rgba(239, 68, 68, 0.05);">
+                    <span style="font-weight: 800;">Sign Out</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-viewport">
+            <header class="top-bar">
+                <div class="page-title">
+                    <h1>Operations Command</h1>
+                    <p>Real-time POS intelligence and trajectory</p>
+                </div>
+                
+                <div style="display: flex; gap: 16px;">
+                    <button id="startFeedBtn" class="btn-accent">
+                        <span>⚡</span> Activate Live Stream
+                    </button>
+                    <div class="badge" style="background: #ffffff; color: var(--text-secondary); display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid var(--border-glass); min-width: 180px;">
+                        <span id="currentDate" style="font-size: 11px; font-weight: 600; color: var(--text-muted);">-- --- ----</span>
+                        <div style="width: 1px; height: 12px; background: #e2e8f0; margin: 0 4px;"></div>
+                        <span id="lastUpdated" style="font-size: 11px; font-weight: 600; display: flex; align-items: center; gap: 6px;">Live Sync: --:--</span>
+                        <div style="width: 1px; height: 12px; background: #e2e8f0; margin: 0 4px;"></div>
+                        <span id="sessionTimer" style="font-size: 11px; font-weight: 800; color: var(--accent-blue);">0m active</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Smart Metrics -->
+            <div class="stats-grid-v2">
+                <div id="cardRevenue" class="stat-widget" style="cursor: pointer;">
+                    <div class="stat-label-row">
+                        <span>Net Revenue</span>
+                        <span>DAILY</span>
+                    </div>
+                    <div id="totalSales" class="stat-value-v2">₹ 0</div>
+                    <div id="trendRevenue" class="stat-trend" style="color: var(--text-secondary)">
+                        <span>--</span> 3% Compared to Yesterday
+                    </div>
+                </div>
+                
+                <div id="cardAvg" class="stat-widget" style="cursor: pointer;">
+                    <div class="stat-label-row">
+                        <span>Avg Transaction per person</span>
+                        <span>LIVE</span>
+                    </div>
+                    <div id="avgSales" class="stat-value-v2">₹ 0</div>
+                    <div id="trendAvg" class="stat-trend" style="color: var(--text-secondary)">
+                        <span>--</span> Trend Phase
+                    </div>
+                </div>
+
+                <div id="cardMomentum" class="stat-widget" style="cursor: pointer;">
+                    <div class="stat-label-row">
+                        <span>Business Momentum</span>
+                        <span>SCORE</span>
+                    </div>
+                    <div id="salesVelocity" class="stat-value-v2">0.0%</div>
+                    <div id="trendMomentum" class="stat-trend" style="color: var(--text-secondary)">
+                        <span>--</span> Peak: 15%
+                    </div>
+                </div>
+
+                <div id="cardEfficiency" class="stat-widget" style="cursor: pointer;">
+                    <div class="stat-label-row">
+                        <span>Efficiency Score</span>
+                        <span>BI INDEX</span>
+                    </div>
+                    <div class="stat-value-v2" style="color: var(--accent-cyan);">94%</div>
+                    <div class="stat-trend trend-up">
+                        Op Excellence
+                    </div>
+                </div>
+            </div>
+
+            <div class="analysis-layout">
+                <!-- Main Insights -->
+                <div class="chart-section">
+                    <div class="glass-card">
+                        <h3 style="margin-bottom: 20px;">Intraday Revenue Stream</h3>
+                        <div style="height: 300px;">
+                            <canvas id="liveTrendChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 style="margin-bottom: 12px;">AI Performance Alerts</h3>
+                        <div id="insightContainer" style="display: flex; flex-direction: column; gap: 12px;">
+                            <!-- AI Insights will push here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Secondary Data -->
+                <div class="sidebar-data" style="display: flex; flex-direction: column; gap: 24px;">
+                    <div class="glass-card live-feed-panel">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <h3 style="font-size: 16px;">Live Ledger</h3>
+                            <div style="display: flex; gap: 8px; align-items: center;">
+                                <select id="timeFrameFilter" style="font-size: 10px; border-radius: 4px; border: 1px solid var(--border-glass); padding: 2px 4px; background: #fff; color: var(--text-secondary); outline: none;">
+                                    <option value="1">1 Hour</option>
+                                    <option value="3">3 Hours</option>
+                                    <option value="6">6 Hours</option>
+                                    <option value="12">12 Hours</option>
+                                    <option value="24" selected>24 Hours</option>
+                                </select>
+                                <span class="badge" style="background: rgba(16, 185, 129, 0.1); color: var(--success); padding: 2px 8px; border-radius: 4px; font-size: 10px;">REALTIME</span>
+                            </div>
+                        </div>
+                        <div id="transactionFeed">
+                            <!-- Items appear here -->
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 style="font-size: 16px; margin-bottom: 16px;">Trajectory Snapshot</h3>
+                        <div style="height: 200px;">
+                            <canvas id="quickForecastChart"></canvas>
+                        </div>
+                        <button class="btn-glass" style="width: 100%; margin-top: 16px; font-size: 12px;" onclick="window.location.href='/analysis'">
+                            View Detailed Projections →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        <!-- Insight Modal (Popup) -->
+        <div id="insightOverlay" class="insight-overlay">
+            <div class="insight-modal">
+                <div class="drawer-header">
+                    <h3 id="modalTitle">Intelligence Insight</h3>
+                    <button class="close-drawer" onclick="closeModal()">&times;</button>
+                </div>
+                
+                <div class="modal-grid">
+                    <div class="modal-chart-container">
+                        <canvas id="modalChart"></canvas>
+                    </div>
+                    <div id="modalContent" class="insight-explanation">
+                        <!-- Smart explanations appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='dashboard.js') }}?v=3.5"></script>
+</body>
+</html>

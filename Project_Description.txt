@@ -1,0 +1,68 @@
+Yeh project ek Smart Sales Prediction POS (Point of Sale) System hai. Iska main goal hai dukan ya business ki sales data ko real-time mein track karna aur AI ka use karke aane wale dino ki sales ko predict karna.
+
+Chaliye main aapko iske har ek hisse ko simple tareeke se samjhata hu ki yeh backend se frontend tak kaise kaam karta hai:
+
+1. Database & Storage (Data Kahan Jata Hai?)
+File: 
+
+pos_system.db
+, 
+
+database.py
+Business me jo bhi khareed-farokht (transaction) hoti hai, wo SQLite database (
+
+pos_system.db
+) me 
+
+sales
+ naam ke ek table mein save ho jati hai.
+Is table mein Date, Time, Item ki Category, Unit Price, Total Amount aur Customer ka naam wagaira store hota hai.
+Iske alawa ek users table bhi hai jo dashboard me login karne walon (jaise "Admin") ki details secure password ke sath rakhta hai.
+2. Backend Server (Dimag)
+File: 
+
+app.py
+ (Flask Server)
+Yeh pure system ka engine hai jo Python aur Flask web framework se bana hai. Iske 3 main kaam hain:
+Pages Dikhana: Jab aap browser me http://localhost:5000 kholte hain, toh yeh aapko Login, Dashboard aur Analysis ke pages bhejta hai.
+APIs (Data Bhejna): Frontend se jab bhi demand aati hai (jaise "aaj ki sales dikhao"), toh backend database se data nikalta hai, thoda math/calculation karta hai aur data ko wapas bhej deta hai.
+AI Forecasting (Bhavishyawani): Iske andar XGBoost naam ka ek advanced Machine Learning Model laga hua hai. Jab bhi data aata hai, Model historical sales padhta hai, pattern samajhta hai (jaise kis din/mahine kitni sale hoti hai), aur agle 90 dino (3 months) ki sales predict karta hai.
+3. Frontend / Dashboard (Chehra)
+Files: 
+
+templates/dashboard.html
+, 
+
+static/dashboard.js
+, 
+
+templates/analysis.html
+Yeh wo hissa hai jo aapko screen par dikhta hai. Isme modern design (Glassmorphism) aur charts (Chart.js) ka use kiya gaya hai.
+dashboard.js file continuously (har kuch seconds me) background se backend ko request bhejti rehti hai (ise polling kehte hain).
+Jaise hi backend se naya data (total revenue, momentum, live transactions) aur AI prediction aata hai, frontend automatically charts aur numbers ko update kar deta hai. Agar revenue badh raha hai toh hari (green) aur ghatt raha hai toh laal (red) arrows dikhata hai.
+4. Live Data Simulator (Testing ke liye)
+File: 
+
+simulator.py
+Agar abhi koi sach me dukan nahi chal rahi, toh yeh script nakli data generate karne ka kaam aati hai.
+Yeh continuously Excel / CSV files (
+
+data/POS_Data.csv
+) se row padhti hai aur dheere-dheere ek-ek karke database me save karti rehti hai. Isse aisa lagta hai jaise kisi badi dukan par real-time me continuously customer bill banwa rahe hain, aur apka dashboard live update hota rehta hai.
+Summary: Pura Cycle Kaise Chalta Hai
+Admin system mein login karta hai.
+
+simulator.py
+ ya real dukan wale nayi sales database me enter karte hain.
+Database 
+
+pos_system.db
+ update ho jata hai.
+Dashboard (dashboard.js) API request bhejta hai /api/live_data aur /api/forecast par.
+Flask (
+
+app.py
+) DB se data fetch karta hai, AI model (XGBoost) predictions update karta hai aur wapas HTML page ko data bhejta hai.
+User apne dashboard par ekdum updated charts aur data dekhta hai.
+Agar aap kis specific (jaise AI model kaise predict karta hai ya chart kaise chalta hai) cheez ko aur deeply samajhna chahte hain toh zaroor batayein!
+
